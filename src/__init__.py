@@ -1,9 +1,9 @@
 import sys
-import json
 from data.clanmates import clan_mates
 from data.items import items
 
 items_sold = {}
+ITEM_PRICE = 50000
 
 def sort_clan_mates():
     clan_mates.sort(key=lambda cm: cm['glory'], reverse=True)
@@ -29,7 +29,7 @@ def get_item_to_buy(demands):
 
 def buy_item(buyer, item_to_buy):
     print(f"{buyer['name']} is buying '{item_to_buy}'.")
-    print(f"{buyer['glory']} - 50000 = {buyer['glory'] - 50000}")
+    print(f"{buyer['glory']} - {ITEM_PRICE} = {buyer['glory'] - {ITEM_PRICE}}")
 
     if item_to_buy is not None:
         items[item_to_buy] -= 1
@@ -40,8 +40,13 @@ def buy_item(buyer, item_to_buy):
             items_sold[item_to_buy] = 1
 
     buyer['purchased'].append(item_to_buy)
-    buyer['purchased_display'].append(f'{item_to_buy} ({items_sold[item_to_buy]})')
-    buyer['glory'] -= 50000
+
+    if item_to_buy is not None:
+        buyer['purchased_display'].append(f'{item_to_buy} ({items_sold[item_to_buy]})')
+    else:
+        buyer['purchased_display'].append(item_to_buy)
+
+    buyer['glory'] -= ITEM_PRICE
 
     for demand in buyer['demands']:
         if demand['name'] == item_to_buy:
@@ -69,8 +74,6 @@ def main() -> int:
                 'purchased': item_to_buy
             })
 
-        print(f"remaining gloriy is {next_buyer['glory']}")
-
         next_buyer = get_next_buyer()
 
     for clan_mate in clan_mates:
@@ -85,7 +88,11 @@ def main() -> int:
 
         purchased = 'purchased: '
         for purchase in clan_mate['purchased_display']:
-            purchased += purchase
+            if purchase is not None:
+                purchased += purchase
+            else:
+                purchased += 'None'
+
             purchased += "; "
 
         print(purchased)
@@ -93,8 +100,11 @@ def main() -> int:
     for item in items:
         for clan_mate in clan_mates:
             for purchase in clan_mate['purchased_display']:
-                if purchase.startswith(item):
-                    print(f"{purchase} bought by {clan_mate['name']}")
+                if purchase is not None:
+                    if purchase.startswith(item):                    
+                        print(f"{purchase} bought by {clan_mate['name']}")
+                else:
+                    print(f"None bought by {clan_mate['name']}")
 
 if __name__ == '__main__':
     sys.exit(main())
