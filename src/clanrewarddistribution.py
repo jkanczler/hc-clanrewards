@@ -32,8 +32,15 @@ def get_item_to_distribute(demands):
     return None
 
 # Distributes the next available item to a clan mate
-def distribute_item(clan_mate, item_to_distribute):
+def distribute_item(clan_mate):
+    # Gets the next item to distributed
+    item_to_distribute = get_item_to_distribute(clan_mate['demands'])
+
+    received = ''
     if item_to_distribute is not None:
+        # if we can distribute an item, properly register quantities and history:
+
+        # handle the distributed items records:
         if items_distributed.get(item_to_distribute):
             # If one piece of this item already distributed, then increase the received quantity
             items_distributed[item_to_distribute]['quantity'] += 1
@@ -44,14 +51,14 @@ def distribute_item(clan_mate, item_to_distribute):
         # deduct the count of availability
         items_available[item_to_distribute] -= 1
 
-    received = ''
-
-    if item_to_distribute is not None:
+        # record history
         received = f"{item_to_distribute} ({items_distributed[item_to_distribute]['quantity']}/{items_distributed[item_to_distribute]['max']})"
         items_distributed[item_to_distribute]['history'].append(f"{received} distributed to {clan_mate['name']} at glory {clan_mate['glory'] + ITEM_PRICE}")
     else:
+        # if there's none to distribute, just record the fact that none is received as reward
         received = item_to_distribute
 
+    # Update clan mate info
     clan_mate['received'].append(received)
     clan_mate['glory'] -= ITEM_PRICE
 
@@ -119,10 +126,10 @@ def distribute_clan_rewards():
         print()
         print('--- Distributing Rewards ---')
 
+        # Distribute the rewards until there's an available awardee
         next_clan_mate = get_next_clan_mate()
-        while next_clan_mate is not None:
-            item_to_distribute = get_item_to_distribute(next_clan_mate['demands'])
-            distribute_item(next_clan_mate, item_to_distribute)
+        while next_clan_mate is not None:            
+            distribute_item(next_clan_mate)
 
             next_clan_mate = get_next_clan_mate()
 
