@@ -9,8 +9,8 @@ clan_mates = [
             { 'name': 'pierce_elixir', 'quantity': 1 },
             { 'name': 'dia', 'quantity': 1 }
         ],
-        'purchased': [],
-        'purchased_display': []
+        'received': [],
+        'received_display': []
     },
     {
         'name': 'Goku',
@@ -22,8 +22,8 @@ clan_mates = [
             { 'name': 'ticket', 'quantity': 1 },
             { 'name': 'badge', 'quantity': 1}
         ],
-        'purchased': [],
-        'purchased_display': []
+        'received': [],
+        'received_display': []
     },
     {
         'name': 'Juckos',
@@ -35,8 +35,8 @@ clan_mates = [
             { 'name': 'ticket', 'quantity': 1 },
             { 'name': 'badge', 'quantity': 1 }
         ],
-        'purchased': [],
-        'purchased_display': []
+        'received': [],
+        'received_display': []
     },
     {
         'name': 'Nasde',
@@ -49,8 +49,8 @@ clan_mates = [
             { 'name': 'damage_elixir', 'quantity': 1 },
             { 'name': 'premium', 'quantity': 1 }
         ],
-        'purchased': [],
-        'purchased_display': []
+        'received': [],
+        'received_display': []
     },
     {
         'name': 'ooRICSKOoo',
@@ -60,8 +60,8 @@ clan_mates = [
             { 'name': 'damage_elixir', 'quantity': 1 },
             { 'name': 'clan_coin', 'quantity': 1 }
         ],
-        'purchased': [],
-        'purchased_display': []
+        'received': [],
+        'received_display': []
     },
     {
         'name': 'Ayrisz',
@@ -73,8 +73,8 @@ clan_mates = [
             { 'name': 'dia', 'quantity': 1 },
             { 'name': 'ticket', 'quantity': 1 }
         ],
-        'purchased': [],
-        'purchased_display': []
+        'received': [],
+        'received_display': []
     },
     {
         'name': 'KisCsako88',
@@ -88,8 +88,8 @@ clan_mates = [
             { 'name': 'badge', 'quantity': 1 },
             { 'name': 'ticket', 'quantity': 1 }
         ],
-        'purchased': [],
-        'purchased_display': []
+        'received': [],
+        'received_display': []
     },
     {
         'name': 'Suzie',
@@ -98,8 +98,8 @@ clan_mates = [
             { 'name': 'premium', 'quantity': 1 },
             { 'name': 'dia', 'quantity': 1 }
         ],
-        'purchased': [],
-        'purchased_display': []
+        'received': [],
+        'received_display': []
     },
     {
         'name': 'api',
@@ -109,8 +109,8 @@ clan_mates = [
             { 'name': 'badge', 'quantity': 1 },
             { 'name': 'dia', 'quantity': 1 }
         ],
-        'purchased': [],
-        'purchased_display': []
+        'received': [],
+        'received_display': []
     },
     {
         'name': 'Chee',
@@ -124,8 +124,8 @@ clan_mates = [
             { 'name': 'ether_catcher', 'quantity': 1 },
             { 'name': 'purple_shard', 'quantity': 1 }
         ],
-        'purchased': [],
-        'purchased_display': []
+        'received': [],
+        'received_display': []
     },
     {
         'name': 'Chee the 3rd',
@@ -139,8 +139,8 @@ clan_mates = [
             { 'name': 'goblin', 'quantity': 1 },
             { 'name': 'purple_shard', 'quantity': 1 }
         ],
-        'purchased': [],
-        'purchased_display': []
+        'received': [],
+        'received_display': []
     },
     {
         'name': 'robert',
@@ -154,8 +154,8 @@ clan_mates = [
             { 'name': 'badge', 'quantity': 1 },
             { 'name': 'clan_coin', 'quantity': 1 }
         ],
-        'purchased': [],
-        'purchased_display': []
+        'received': [],
+        'received_display': []
     },
     {
         'name': 'Josh',
@@ -167,7 +167,7 @@ clan_mates = [
             { 'name': 'badge', 'quantity': 10 },
             { 'name': 'ether_catcher', 'quantity': 10 },
         ],
-        'purchased': [],
-        'purchased_display': []
+        'received': [],
+        'received_display': []
     }
 ]

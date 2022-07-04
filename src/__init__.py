@@ -8,16 +8,16 @@ ITEM_PRICE = 50000
 def sort_clan_mates():
     clan_mates.sort(key=lambda cm: cm['glory'], reverse=True)
 
-def get_next_buyer():
+def get_next_clan_mate():
     sort_clan_mates()
 
     for clan_mate in clan_mates:
-        if len(clan_mate['purchased']) < 5:
+        if len(clan_mate['received']) < 5:
             return clan_mate
 
     return None
 
-def get_item_to_buy(demands):
+def get_item_to_receive(demands):
     for demand in demands:
         if demand['quantity'] > 0:
             for item in items:
@@ -27,30 +27,32 @@ def get_item_to_buy(demands):
 
     return None
 
-def buy_item(buyer, item_to_buy):
-    print(f"{buyer['name']} is buying '{item_to_buy}'.")
-    print(f"{buyer['glory']} - {ITEM_PRICE} = {buyer['glory'] - {ITEM_PRICE}}")
-
-    if item_to_buy is not None:
-        items[item_to_buy] -= 1
-
-        if items_sold.get(item_to_buy):
-            items_sold[item_to_buy] += 1
+def receive_item(clan_mate, item_to_receive):
+    if item_to_receive is not None:
+        if items_sold.get(item_to_receive):
+            items_sold[item_to_receive]['quantity'] += 1
         else:
-            items_sold[item_to_buy] = 1
+            items_sold[item_to_receive] = { 'quantity': 1, 'max': items[item_to_receive] }
 
-    buyer['purchased'].append(item_to_buy)
+        items[item_to_receive] -= 1
 
-    if item_to_buy is not None:
-        buyer['purchased_display'].append(f'{item_to_buy} ({items_sold[item_to_buy]})')
+    received_display = ''
+
+    if item_to_receive is not None:
+        received_display = f"{item_to_receive} ({items_sold[item_to_receive]['quantity']}/{items_sold[item_to_receive]['max']})"
     else:
-        buyer['purchased_display'].append(item_to_buy)
+        received_display = item_to_receive
 
-    buyer['glory'] -= ITEM_PRICE
+    clan_mate['received'].append(item_to_receive)
+    clan_mate['received_display'].append(received_display)
+    clan_mate['glory'] -= ITEM_PRICE
 
-    for demand in buyer['demands']:
-        if demand['name'] == item_to_buy:
+    for demand in clan_mate['demands']:
+        if demand['name'] == item_to_receive:
             demand['quantity'] -= 1
+
+    print(f"{clan_mate['name']} is receiving '{received_display}'.")
+    print(f"{clan_mate['glory'] + ITEM_PRICE} - {ITEM_PRICE} = {clan_mate['glory']}")
 
 def validate_items():
     for clan_mate in clan_mates:
@@ -61,20 +63,12 @@ def validate_items():
 def main() -> int:
     validate_items()
 
-    orders = []
+    next_clan_mate = get_next_clan_mate()
+    while next_clan_mate is not None:
+        item_to_receive = get_item_to_receive(next_clan_mate['demands'])
+        receive_item(next_clan_mate, item_to_receive)
 
-    next_buyer = get_next_buyer()
-    while next_buyer is not None:
-        item_to_buy = get_item_to_buy(next_buyer['demands'])
-        buy_item(next_buyer, item_to_buy)
-
-        orders.append(
-            {
-                'name': next_buyer['name'],
-                'purchased': item_to_buy
-            })
-
-        next_buyer = get_next_buyer()
+        next_clan_mate = get_next_clan_mate()
 
     for clan_mate in clan_mates:
         print(clan_mate['name'])
@@ -86,23 +80,23 @@ def main() -> int:
 
         print(demands)
 
-        purchased = 'purchased: '
-        for purchase in clan_mate['purchased_display']:
-            if purchase is not None:
-                purchased += purchase
+        received = 'received: '
+        for received_item in clan_mate['received_display']:
+            if received_item is not None:
+                received += received_item
             else:
-                purchased += 'None'
+                received += 'None'
 
-            purchased += "; "
+            received += "; "
 
-        print(purchased)
+        print(received)
 
     for item in items:
         for clan_mate in clan_mates:
-            for purchase in clan_mate['purchased_display']:
-                if purchase is not None:
-                    if purchase.startswith(item):                    
-                        print(f"{purchase} bought by {clan_mate['name']}")
+            for received_item in clan_mate['received_display']:
+                if received_item is not None:
+                    if received_item.startswith(item.strip()):
+                        print(f"{received_item} bought by {clan_mate['name']}")
                 else:
                     print(f"None bought by {clan_mate['name']}")
 
