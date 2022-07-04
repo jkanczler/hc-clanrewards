@@ -3,6 +3,8 @@ import json
 from data.clanmates import clan_mates
 from data.items import items
 
+items_sold = {}
+
 def sort_clan_mates():
     clan_mates.sort(key=lambda cm: cm['glory'], reverse=True)
 
@@ -32,7 +34,13 @@ def buy_item(buyer, item_to_buy):
     if item_to_buy is not None:
         items[item_to_buy] -= 1
 
+        if items_sold.get(item_to_buy):
+            items_sold[item_to_buy] += 1
+        else:
+            items_sold[item_to_buy] = 1
+
     buyer['purchased'].append(item_to_buy)
+    buyer['purchased_display'].append(f'{item_to_buy} ({items_sold[item_to_buy]})')
     buyer['glory'] -= 50000
 
     for demand in buyer['demands']:
@@ -67,7 +75,7 @@ def main() -> int:
 
     for clan_mate in clan_mates:
         print(clan_mate['name'])
-        
+
         demands = 'demands: '
         for demand in clan_mate['demands']:
             demands += demand['name']
@@ -76,7 +84,7 @@ def main() -> int:
         print(demands)
 
         purchased = 'purchased: '
-        for purchase in clan_mate['purchased']:
+        for purchase in clan_mate['purchased_display']:
             purchased += purchase
             purchased += "; "
 
@@ -84,9 +92,9 @@ def main() -> int:
 
     for item in items:
         for clan_mate in clan_mates:
-            for purchase in clan_mate['purchased']:
-                if purchase == item:
-                    print(f"{item} bought by {clan_mate['name']}")
+            for purchase in clan_mate['purchased_display']:
+                if purchase.startswith(item):
+                    print(f"{purchase} bought by {clan_mate['name']}")
 
 if __name__ == '__main__':
     sys.exit(main())
