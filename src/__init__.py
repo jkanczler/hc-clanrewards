@@ -65,7 +65,22 @@ def main() -> int:
 
         next_buyer = get_next_buyer()
 
-    print(json.dumps(clan_mates, indent=2))
+    for clan_mate in clan_mates:
+        print(clan_mate['name'])
+        
+        demands = 'demands: '
+        for demand in clan_mate['demands']:
+            demands += demand['name']
+            demands += "; "
+
+        print(demands)
+
+        purchased = 'purchased: '
+        for purchase in clan_mate['purchased']:
+            purchased += purchase
+            purchased += "; "
+
+        print(purchased)
 
     for item in items:
         for clan_mate in clan_mates:
