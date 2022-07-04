@@ -66,7 +66,12 @@ def main() -> int:
         next_buyer = get_next_buyer()
 
     print(json.dumps(clan_mates, indent=2))
-    # print(json.dumps(orders, indent=2))
+
+    for item in items:
+        for clan_mate in clan_mates:
+            for purchase in clan_mate['purchased']:
+                if purchase == item:
+                    print(f"{item} bought by {clan_mate['name']}")
 
 if __name__ == '__main__':
     sys.exit(main())
