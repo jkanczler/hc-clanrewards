@@ -53,7 +53,7 @@ def _distribute_item(clan_mate):
 
         # record history
         received = f"{item_to_distribute} ({_items_distributed[item_to_distribute]['quantity']}/{_items_distributed[item_to_distribute]['max']})"
-        _items_distributed[item_to_distribute]['history'].append(f"{received} distributed to {clan_mate['name']} at glory {clan_mate['glory'] + _ITEM_PRICE}")
+        _items_distributed[item_to_distribute]['history'].append(f"{received} kiosztva {clan_mate['name']} klántagnak {clan_mate['glory'] + _ITEM_PRICE} glorynál.")
     else:
         # if there's none to distribute, just record the fact that none is received as reward
         received = item_to_distribute
@@ -67,25 +67,24 @@ def _distribute_item(clan_mate):
             # Reduce the demanded quantity
             demand['quantity'] -= 1
 
-    print(f"{clan_mate['name']} is receiving '{received}'.")
-    print(f"{clan_mate['glory'] + _ITEM_PRICE} - {_ITEM_PRICE} = {clan_mate['glory']}")
+    print(f"{clan_mate['name']} megkapja a következő tárgyat: '{received}'. Glory levonás: {clan_mate['glory'] + _ITEM_PRICE} - {_ITEM_PRICE} = {clan_mate['glory']}")
 
 def _write_result_to_output():
     print()
-    print('--- Rewards by Clan Mates ---')
+    print('--- Jutalmak Ember Szerint ---')
 
     for clan_mate in clan_mates:
         print()
-        print(f"{clan_mate['name']} demands and rewards:")
+        print(f"{clan_mate['name']} kérései és jutalma:")
 
-        demands = 'Demands: '
+        demands = 'Kérés: '
         for demand in clan_mate['demands']:
             demands += f"{demand['name']} ({demand['original']})"
             demands += "; "
 
         print(demands)
 
-        received = 'Rewards: '
+        received = 'Jutalom: '
         for received_item in clan_mate['received']:
             if received_item is not None:
                 received += received_item
@@ -97,7 +96,7 @@ def _write_result_to_output():
         print(received)
 
     print()
-    print('--- Items Distributed ---')
+    print('--- Jutalmak Tárgy Szerint ---')
     index = 0
     for item in items_available:
         if _items_distributed.get(item):
@@ -110,7 +109,7 @@ def _validate_items():
     for clan_mate in clan_mates:
         for demand in clan_mate['demands']:
             if not items_available.get(demand['name']):
-                print(f"The demand '{demand}' is not in the item list.")
+                print(f"A '{demand}' kérés nincs a listában.")
                 success = False
 
     return success
@@ -121,17 +120,17 @@ def _set_original_quantities():
             demand['original'] = demand['quantity']
 
 def distribute_clan_rewards():
-    print('--- Item List Validation ---')
+    print('--- Tárgy Lista Validáció ---')
     validation_result = _validate_items()
 
     _set_original_quantities()
 
     if not validation_result:
-        print('Item List Validation failed: please add the missing items to continue...')
+        print('Tárgy Lista Validáció Sikertelen: javítsd ki a tárgy listát...')
     else:
-        print('Item List Validation was successful')
+        print('Tárgy Lista Validáció Sikeres')
         print()
-        print('--- Distributing Rewards ---')
+        print('--- Jutalmak ---')
 
         # Distribute the rewards until there's an available awardee
         next_clan_mate = _get_next_clan_mate()
