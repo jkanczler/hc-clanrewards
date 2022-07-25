@@ -80,7 +80,7 @@ def _write_result_to_output():
 
         demands = 'Demands: '
         for demand in clan_mate['demands']:
-            demands += demand['name']
+            demands += f"{demand['name']} ({demand['original']})"
             demands += "; "
 
         print(demands)
@@ -115,9 +115,16 @@ def _validate_items():
 
     return success
 
+def _set_original_quantities():
+    for clan_mate in clan_mates:
+        for demand in clan_mate['demands']:
+            demand['original'] = demand['quantity']
+
 def distribute_clan_rewards():
     print('--- Item List Validation ---')
     validation_result = _validate_items()
+
+    _set_original_quantities()
 
     if not validation_result:
         print('Item List Validation failed: please add the missing items to continue...')
