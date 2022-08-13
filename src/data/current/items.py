@@ -26,4 +26,7 @@ items = {
     'fuse': 1,
     'cults_hood': 1,
     'protective_barrier': 2,
+    'lego_soul': 1,
+    'red_pepper': 1,
+    'ether': 7,
 }
