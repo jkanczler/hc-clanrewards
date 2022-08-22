@@ -1,5 +1,7 @@
 import data
 from clanmate import ClanMate
+from clanrewards import ClanRewards
+
 
 class ClanRewardsDistributor:
     # Price of any items, this will be deducated from the glory after each item received
@@ -11,11 +13,10 @@ class ClanRewardsDistributor:
     # Each clan mate can receive this many rewards
     _number_of_rewards = 5
 
-    _available_items = data.get_items()
-
 
     def __init__(self):
         self._init_clan_mates()
+        self._init_clan_rewards()
 
 
     def distribute_clan_rewards(self):
@@ -54,8 +55,8 @@ class ClanRewardsDistributor:
         for demand in demands:
             if demand['quantity'] > 0:
                 for demanded_item in demand['items']:
-                    for available_item in self._available_items:
-                        if demanded_item == available_item and self._available_items[demanded_item] > 0:
+                    for available_item in self.clan_rewards.available_items:
+                        if demanded_item == available_item and self.clan_rewards.available_items[demanded_item] > 0:
                             return available_item
 
         return None
@@ -84,10 +85,10 @@ class ClanRewardsDistributor:
             self._items_distributed[item_to_distribute]['quantity'] += 1
         else:
             # First time distributing this item initialize the quantity and maximum available quantity
-            self._items_distributed[item_to_distribute] = { 'quantity': 1, 'max': self._available_items[item_to_distribute], 'history': [] }
+            self._items_distributed[item_to_distribute] = { 'quantity': 1, 'max': self.clan_rewards.available_items[item_to_distribute], 'history': [] }
 
         # deduct the count of availability
-        self._available_items[item_to_distribute] -= 1
+        self.clan_rewards.available_items[item_to_distribute] -= 1
 
         # record history
         received = f"{item_to_distribute} ({self._items_distributed[item_to_distribute]['quantity']}/{self._items_distributed[item_to_distribute]['max']})"
@@ -125,7 +126,7 @@ class ClanRewardsDistributor:
         print()
         print('--- Jutalmak Tárgy Szerint ---')
         index = 0
-        for item in self._available_items:
+        for item in self.clan_rewards.available_items:
             if self._items_distributed.get(item):
                 for history in self._items_distributed[item]['history']:
                     index += 1
@@ -139,7 +140,7 @@ class ClanRewardsDistributor:
         for clan_mate in self._clan_mates:
             for demand in clan_mate.demands:
                 for item in demand['items']:
-                    if not self._available_items.get(item):
+                    if not self.clan_rewards.available_items.get(item):
                         print(f"A '{item}' kérés nincs a listában.")
                         success = False
 
@@ -159,3 +160,7 @@ class ClanRewardsDistributor:
 
         for init_obj in clan_mate_init_objs:
             self._clan_mates.append(ClanMate(init_obj))
+
+    def _init_clan_rewards(self):
+        _available_items = data.get_items()
+        self.clan_rewards = ClanRewards(_available_items)
