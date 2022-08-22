@@ -15,17 +15,14 @@ class ClanRewardsDistributor:
     _available_items = data.get_items()
 
 
-    def distribute_clan_rewards(self):
-        print('--- Tárgy Lista Validáció ---')
-        validation_result = self._validate_items()
-
+    def __init__(self):
         self._set_original_quantities()
 
-        if not validation_result:
-            print('Tárgy Lista Validáció Sikertelen: javítsd ki a tárgy listát...')
-        else:
-            print('Tárgy Lista Validáció Sikeres')
-            print()
+
+    def distribute_clan_rewards(self):
+        successful_validation = self._validate_items()
+
+        if successful_validation:
             print('--- Jutalmak ---')
 
             # Distribute the rewards until there's an available awardee
@@ -141,6 +138,8 @@ class ClanRewardsDistributor:
 
 
     def _validate_items(self):
+        print('--- Tárgy Lista Validáció ---')
+
         success = True
         for clan_mate in self._clan_mates:
             for demand in clan_mate['demands']:
@@ -148,6 +147,13 @@ class ClanRewardsDistributor:
                     if not self._available_items.get(item):
                         print(f"A '{item}' kérés nincs a listában.")
                         success = False
+
+        if not success:
+            print('Tárgy Lista Validáció Sikertelen: javítsd ki a tárgy listát...')
+            print()
+        else:
+            print('Tárgy Lista Validáció Sikeres')
+            print()
 
         return success
 
