@@ -15,6 +15,10 @@ def _get_next_clan_mate():
     clan_mates.sort(key=lambda cm: cm['glory'], reverse=True)
 
     for clan_mate in clan_mates:
+        if not 'received' in clan_mate:
+            clan_mate['received'] = []
+            clan_mate['received_display'] = []
+
         if len(clan_mate['received']) < _NUMBER_OF_REWARDS:
             return clan_mate
 
