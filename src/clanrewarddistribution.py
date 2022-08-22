@@ -16,23 +16,27 @@ class ClanRewardsDistributor:
 
 
     def __init__(self):
-        self._set_original_quantities()
+        self._init_clan_mates()
 
 
     def distribute_clan_rewards(self):
         successful_validation = self._validate_items()
 
         if successful_validation:
-            print('--- Jutalmak ---')
+            self._distribute_clan_rewards()
 
-            # Distribute the rewards until there's an available awardee
+
+    def _distribute_clan_rewards(self):
+        print('--- Jutalmak ---')
+
+        # Distribute the rewards until there's an available awardee
+        next_clan_mate = self._get_next_clan_mate()
+        while next_clan_mate is not None:
+            self._distribute_item(next_clan_mate)
+
             next_clan_mate = self._get_next_clan_mate()
-            while next_clan_mate is not None:
-                self._distribute_item(next_clan_mate)
 
-                next_clan_mate = self._get_next_clan_mate()
-
-            self._write_result_to_output()
+        self._write_result_to_output()
 
 
     # Gets the next clan mate who can receive a reward
@@ -40,10 +44,6 @@ class ClanRewardsDistributor:
         self._clan_mates.sort(key=lambda cm: cm['glory'], reverse=True)
 
         for clan_mate in self._clan_mates:
-            if not 'received' in clan_mate:
-                clan_mate['received'] = []
-                clan_mate['received_display'] = []
-
             if len(clan_mate['received']) < self._number_of_rewards:
                 return clan_mate
 
@@ -158,7 +158,11 @@ class ClanRewardsDistributor:
         return success
 
 
-    def _set_original_quantities(self):
+    def _init_clan_mates(self):
         for clan_mate in self._clan_mates:
             for demand in clan_mate['demands']:
                 demand['original'] = demand['quantity']
+
+            if not 'received' in clan_mate:
+                clan_mate['received'] = []
+                clan_mate['received_display'] = []
