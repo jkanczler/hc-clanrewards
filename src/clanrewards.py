@@ -30,7 +30,7 @@ class ClanRewards:
 
             self.distributed_items[item_to_distribute]['history'].append(f"{item_to_give} kiosztva {clan_mate.name} klántagnak {clan_mate.glory + self._item_price} glorynál.")
 
-        clan_mate.give_item(item_to_distribute, item_to_give)
+        clan_mate.give_item(item_to_give)
 
         return item_to_give
 
