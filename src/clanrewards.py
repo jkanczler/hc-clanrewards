@@ -1,8 +1,8 @@
 class ClanRewards:
     def __init__(self, available_items, item_price):
         self.available_items = available_items
-        self.distributed_items = {}
         self._item_price = item_price
+        self._init_distributed_items()
 
 
     def distribute_item(self, clan_mate):
@@ -12,14 +12,7 @@ class ClanRewards:
         if item_to_distribute is None:
             item_to_give = 'None'
         else:
-            # handle the distributed items records:
-            if item_to_distribute in self.distributed_items:
-                # If one piece of this item already distributed, then increase the received quantity
-                self.distributed_items[item_to_distribute]['quantity'] += 1
-            else:
-                # First time distributing this item initialize the quantity and maximum available quantity
-                self.distributed_items[item_to_distribute] = { 'quantity': 1, 'max': self.available_items[item_to_distribute], 'history': [] }
-
+            self.distributed_items[item_to_distribute]['quantity'] += 1
             self.available_items[item_to_distribute] -= 1
 
             # record history
@@ -46,6 +39,13 @@ class ClanRewards:
                     print(f'{index}. {history}')
 
         print()
+
+
+    def _init_distributed_items(self):
+        self.distributed_items = {}
+
+        for available_item in self.available_items:
+            self.distributed_items[available_item] = { 'quantity': 0, 'max': self.available_items[available_item], 'history': [] }
 
 
     def _get_item_to_distribute(self, demands):
