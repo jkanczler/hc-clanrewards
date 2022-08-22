@@ -26,4 +26,6 @@ items = {
     'lego_totem': 3,
     'epic_totem': 13,
     'gem_health': 1,
+    'gem_crit': 1,
+    'ether_catcher': 1
 }

@@ -57,10 +57,10 @@ class ClanRewardsDistributor:
     def _get_item_to_distribute(self, demands):
         for demand in demands:
             if demand['quantity'] > 0:
-                for item in self._available_items:
-                    if demand['name'] == item:
-                        if self._available_items[demand['name']] > 0:
-                            return item
+                for demanded_item in demand['items']:
+                    for available_item in self._available_items:
+                        if demanded_item == available_item and self._available_items[demanded_item] > 0:
+                            return available_item
 
         return None
 
@@ -97,7 +97,7 @@ class ClanRewardsDistributor:
         clan_mate['glory'] -= self._item_price
 
         for demand in clan_mate['demands']:
-            if demand['name'] == item_to_distribute:
+            if item_to_distribute in demand['items']:
                 # Reduce the demanded quantity
                 demand['quantity'] -= 1
 
@@ -114,7 +114,7 @@ class ClanRewardsDistributor:
 
             demands = 'Kérés: '
             for demand in clan_mate['demands']:
-                demands += f"{demand['name']} ({demand['original']})"
+                demands += f"{demand['items']} ({demand['original']})"
                 demands += "; "
 
             print(demands)
@@ -144,9 +144,10 @@ class ClanRewardsDistributor:
         success = True
         for clan_mate in self._clan_mates:
             for demand in clan_mate['demands']:
-                if not self._available_items.get(demand['name']):
-                    print(f"A '{demand}' kérés nincs a listában.")
-                    success = False
+                for item in demand['items']:
+                    if not self._available_items.get(item):
+                        print(f"A '{item}' kérés nincs a listában.")
+                        success = False
 
         return success
 
