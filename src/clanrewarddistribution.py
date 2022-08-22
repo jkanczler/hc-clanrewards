@@ -2,11 +2,11 @@ import data
 from clanmate import ClanMate
 
 class ClanRewardsDistributor:
-    # Tracking the items distributed to clan mates
-    _items_distributed = {}
-
     # Price of any items, this will be deducated from the glory after each item received
     _item_price = 50000
+
+    # Tracking the items distributed to clan mates
+    _items_distributed = {}
 
     # Each clan mate can receive this many rewards
     _number_of_rewards = 5
@@ -73,7 +73,7 @@ class ClanRewardsDistributor:
             # if there's none to distribute, just record the fact that none is received as reward
             received = item_to_distribute
 
-        self._sell_item_to_clan_mate(clan_mate, item_to_distribute, received)
+        clan_mate.buy_item(received)
 
     def _distribute_item(self, clan_mate, item_to_distribute):
         # if we can distribute an item, properly register quantities and history:
@@ -94,19 +94,6 @@ class ClanRewardsDistributor:
         self._items_distributed[item_to_distribute]['history'].append(f"{received} kiosztva {clan_mate.name} klántagnak {clan_mate.glory + self._item_price} glorynál.")
 
         return received
-
-
-    def _sell_item_to_clan_mate(self, clan_mate, item_to_distribute, received):
-        # Update clan mate info
-        clan_mate.received.append(received)
-        clan_mate.glory -= self._item_price
-
-        for demand in clan_mate.demands:
-            if item_to_distribute in demand['items']:
-                # Reduce the demanded quantity
-                demand['quantity'] -= 1
-
-        print(f"{clan_mate.name} megkapja a következő tárgyat: '{received}'. Glory levonás: {clan_mate.glory + self._item_price} - {self._item_price} = {clan_mate.glory}")
 
 
     def _write_result_to_output(self):
