@@ -14,8 +14,8 @@ clan_mates = [
         'glory': 315847,
         'demands': [
             { 'name': 'lego_spirit', 'quantity': 2 },
-            { 'name': 'epic_spirit', 'quantity': 2 },
-            { 'name': 'elixir', 'quantity': 2 },
+            { 'name': 'elixir_dmg', 'quantity': 1 },
+            { 'name': 'elixir_accu', 'quantity': 1 },
             { 'name': 'lego_book', 'quantity': 1 },
             { 'name': 'dia', 'quantity': 1 },
             { 'name': 'ticket', 'quantity': 1 },
@@ -29,8 +29,8 @@ clan_mates = [
         'demands': [
             { 'name': 'cults_hood', 'quantity': 1 },
             { 'name': 'lego_book', 'quantity': 1 },
-            { 'name': 'lego_spirit', 'quantity': 2 },
-            { 'name': 'epic_spirit', 'quantity': 2 },
+            { 'name': 'lego_spirit', 'quantity': 1 },
+            { 'name': 'epic_spirit', 'quantity': 1 },
             { 'name': 'clan_coin', 'quantity': 2 },
             { 'name': 'goblin', 'quantity': 5 },
             { 'name': 'premium', 'quantity': 5 },
@@ -45,6 +45,7 @@ clan_mates = [
             { 'name': 'clan_coin', 'quantity': 1 },
             { 'name': 'dia', 'quantity': 1 },
             { 'name': 'epic_spirit', 'quantity': 2 },
+            { 'name': 'ticket', 'quantity': 5 },
         ],
     },
     {
@@ -54,12 +55,19 @@ clan_mates = [
             { 'name': 'lego_spirit', 'quantity': 2 },
             { 'name': 'clan_coin', 'quantity': 2 },
             { 'name': 'epic_spirit', 'quantity': 2 },
+            { 'name': 'ticket', 'quantity': 5 },
         ],
     },
     {
         'name': 'Josh',
         'glory': 179659,
         'demands': [
+            { 'name': 'epic_spirit', 'quantity': 2 },            
+            { 'name': 'elixir_pierce', 'quantity': 1 },
+            { 'name': 'elixir_sp', 'quantity': 1 },
+            { 'name': 'elixir_forti', 'quantity': 1 },
+            { 'name': 'lego_book', 'quantity': 2 },
+            { 'name': 'lego_totem', 'quantity': 1 }
         ],
     },
     {
@@ -69,7 +77,10 @@ clan_mates = [
             { 'name': 'strings_of_revenge', 'quantity': 1 },
             { 'name': 'lego_spirit', 'quantity': 2 },
             { 'name': 'epic_spirit', 'quantity': 2 },
-            { 'name': 'elixir', 'quantity': 2 },
+            { 'name': 'elixir_pierce', 'quantity': 1 },
+            { 'name': 'elixir_sp', 'quantity': 1 },
+            { 'name': 'elixir_forti', 'quantity': 1 },
+            { 'name': 'elixir_magic_pierce', 'quantity': 1 },
             { 'name': 'dia', 'quantity': 1 },
             { 'name': 'premium', 'quantity': 1 },
             { 'name': 'ticket', 'quantity': 1 },
@@ -81,7 +92,6 @@ clan_mates = [
         'name': 'KisCsako88',
         'glory': 129525,
         'demands': [
-            { 'name': 'lego_spirit', 'quantity': 1 },
             { 'name': 'epic_spirit', 'quantity': 1 },
             { 'name': 'dragon_flame', 'quantity': 1 },
             { 'name': 'inventor_essence', 'quantity': 1 },
@@ -100,6 +110,7 @@ clan_mates = [
             { 'name': 'lego_spirit', 'quantity': 1 },
             { 'name': 'epic_spirit', 'quantity': 1 },
             { 'name': 'dia', 'quantity': 1 },
+            { 'name': 'badge', 'quantity': 5 },
         ],
     },
     {
@@ -127,7 +138,10 @@ clan_mates = [
         'name': 'Goku',
         'glory': 72103,
         'demands': [
-            { 'name': 'elixir', 'quantity': 2 },
+            { 'name': 'elixir_pierce', 'quantity': 1 },
+            { 'name': 'elixir_sp', 'quantity': 1 },
+            { 'name': 'elixir_forti', 'quantity': 1 },
+            { 'name': 'elixir_magic_pierce', 'quantity': 1 },
             { 'name': 'clan_coin', 'quantity': 5 },
         ],
     },
