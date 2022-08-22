@@ -1,5 +1,4 @@
-from data.current.clanmates import clan_mates
-from data.current.items import items as items_available
+import data
 
 # Tracking the items distributed to clan mates
 _items_distributed = {}
@@ -10,11 +9,16 @@ _ITEM_PRICE = 50000
 # Each clan mate can receive this many rewards
 _NUMBER_OF_REWARDS = 5
 
+
+_CLAN_MATES = data.get_clan_mates()
+_AVAILABLE_ITEMS = data.get_items()
+
+
 # Gets the next clan mate who can receive a reward
 def _get_next_clan_mate():
-    clan_mates.sort(key=lambda cm: cm['glory'], reverse=True)
+    _CLAN_MATES.sort(key=lambda cm: cm['glory'], reverse=True)
 
-    for clan_mate in clan_mates:
+    for clan_mate in _CLAN_MATES:
         if not 'received' in clan_mate:
             clan_mate['received'] = []
             clan_mate['received_display'] = []
@@ -24,16 +28,18 @@ def _get_next_clan_mate():
 
     return None
 
+
 # Gets the next reward available based on the demands
 def _get_item_to_distribute(demands):
     for demand in demands:
         if demand['quantity'] > 0:
-            for item in items_available:
+            for item in _AVAILABLE_ITEMS:
                 if demand['name'] == item:
-                    if items_available[demand['name']] > 0:
+                    if _AVAILABLE_ITEMS[demand['name']] > 0:
                         return item
 
     return None
+
 
 # Distributes the next available item to a clan mate
 def _distribute_item(clan_mate):
@@ -50,10 +56,10 @@ def _distribute_item(clan_mate):
             _items_distributed[item_to_distribute]['quantity'] += 1
         else:
             # First time distributing this item initialize the quantity and maximum available quantity
-            _items_distributed[item_to_distribute] = { 'quantity': 1, 'max': items_available[item_to_distribute], 'history': [] }
+            _items_distributed[item_to_distribute] = { 'quantity': 1, 'max': _AVAILABLE_ITEMS[item_to_distribute], 'history': [] }
 
         # deduct the count of availability
-        items_available[item_to_distribute] -= 1
+        _AVAILABLE_ITEMS[item_to_distribute] -= 1
 
         # record history
         received = f"{item_to_distribute} ({_items_distributed[item_to_distribute]['quantity']}/{_items_distributed[item_to_distribute]['max']})"
@@ -73,11 +79,12 @@ def _distribute_item(clan_mate):
 
     print(f"{clan_mate['name']} megkapja a következő tárgyat: '{received}'. Glory levonás: {clan_mate['glory'] + _ITEM_PRICE} - {_ITEM_PRICE} = {clan_mate['glory']}")
 
+
 def _write_result_to_output():
     print()
     print('--- Jutalmak Ember Szerint ---')
 
-    for clan_mate in clan_mates:
+    for clan_mate in _CLAN_MATES:
         print()
         print(f"{clan_mate['name']} kérései és jutalma:")
 
@@ -102,26 +109,29 @@ def _write_result_to_output():
     print()
     print('--- Jutalmak Tárgy Szerint ---')
     index = 0
-    for item in items_available:
+    for item in _AVAILABLE_ITEMS:
         if _items_distributed.get(item):
             for history in _items_distributed[item]['history']:
                 index += 1
                 print(f'{index}. {history}')
 
+
 def _validate_items():
     success = True
-    for clan_mate in clan_mates:
+    for clan_mate in _CLAN_MATES:
         for demand in clan_mate['demands']:
-            if not items_available.get(demand['name']):
+            if not _AVAILABLE_ITEMS.get(demand['name']):
                 print(f"A '{demand}' kérés nincs a listában.")
                 success = False
 
     return success
 
+
 def _set_original_quantities():
-    for clan_mate in clan_mates:
+    for clan_mate in _CLAN_MATES:
         for demand in clan_mate['demands']:
             demand['original'] = demand['quantity']
+
 
 def distribute_clan_rewards():
     print('--- Tárgy Lista Validáció ---')
