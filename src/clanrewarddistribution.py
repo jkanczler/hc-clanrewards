@@ -48,7 +48,8 @@ class ClanRewardsDistributor:
         # Distribute the rewards until there's an available awardee
         next_clan_mate = self._get_next_clan_mate()
         while next_clan_mate is not None:
-            self.distribute_item(next_clan_mate)
+            item_received = self.clan_rewards.distribute_item(next_clan_mate)
+            print(f"{next_clan_mate.name} megkapja a következő tárgyat: '{item_received}'. Glory levonás: {next_clan_mate.glory + self._item_price} - {self._item_price} = {next_clan_mate.glory}")
 
             next_clan_mate = self._get_next_clan_mate()
 
@@ -64,16 +65,6 @@ class ClanRewardsDistributor:
                 return clan_mate
 
         return None
-
-
-    # Distributes the next available item to a clan mate
-    def distribute_item(self, clan_mate):
-        # Gets the next item to distributed
-        item_to_distribute = self.clan_rewards.get_item_to_distribute(clan_mate.demands)
-        item_received = self.clan_rewards.distribute_item(item_to_distribute, clan_mate)
-        clan_mate.give_item(item_to_distribute, item_received)
-
-        print(f"{clan_mate.name} megkapja a következő tárgyat: '{item_received}'. Glory levonás: {clan_mate.glory + self._item_price} - {self._item_price} = {clan_mate.glory}")
 
 
     def _print_results(self):

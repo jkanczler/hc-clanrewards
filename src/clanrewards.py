@@ -5,7 +5,9 @@ class ClanRewards:
         self._item_price = item_price
 
 
-    def distribute_item(self, item_to_distribute, clan_mate):
+    def distribute_item(self, clan_mate):
+        item_to_distribute = self._get_item_to_distribute(clan_mate.demands)
+
         # if we can distribute an item, properly register quantities and history:
         if item_to_distribute is None:
             item_to_give = 'None'
@@ -28,6 +30,8 @@ class ClanRewards:
 
             self.distributed_items[item_to_distribute]['history'].append(f"{item_to_give} kiosztva {clan_mate.name} klántagnak {clan_mate.glory + self._item_price} glorynál.")
 
+        clan_mate.give_item(item_to_distribute, item_to_give)
+
         return item_to_give
 
 
@@ -44,7 +48,7 @@ class ClanRewards:
         print()
 
 
-    def get_item_to_distribute(self, demands):
+    def _get_item_to_distribute(self, demands):
         for demand in demands:
             if demand['quantity'] > 0:
                 for demanded_item in demand['items']:
