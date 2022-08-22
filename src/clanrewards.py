@@ -6,26 +6,18 @@ class ClanRewards:
 
 
     def distribute_item(self, clan_mate):
-        item_to_distribute = self._get_item_to_distribute(clan_mate.demands)
+        current_demand = self._get_current_demand(clan_mate.demands)
+        item_to_distribute = self._get_item_to_distribute(current_demand)
 
         # if we can distribute an item, properly register quantities and history:
-        if item_to_distribute is None:
-            item_to_give = 'None'
-        else:
-            self.distributed_items[item_to_distribute]['quantity'] += 1
-            self.available_items[item_to_distribute] -= 1
+        if not item_to_distribute is None:
+            self.distributed_items[current_demand]['quantity'] += 1
+            self.available_items[current_demand] -= 1
+            self.distributed_items[current_demand]['history'].append(f"{item_to_distribute} kiosztva {clan_mate.name} klántagnak {clan_mate.glory} glorynál.")
 
-            # record history
-            if item_to_distribute in self.distributed_items:
-                item_to_give = f"{item_to_distribute} ({self.distributed_items[item_to_distribute]['quantity']}/{self.distributed_items[item_to_distribute]['max']})"
-            else:
-                item_to_give = item_to_distribute
+        clan_mate.give_item(item_to_distribute)
 
-            self.distributed_items[item_to_distribute]['history'].append(f"{item_to_give} kiosztva {clan_mate.name} klántagnak {clan_mate.glory + self._item_price} glorynál.")
-
-        clan_mate.give_item(item_to_give)
-
-        return item_to_give
+        return item_to_distribute
 
 
     def print_distribution_history(self):
@@ -48,11 +40,16 @@ class ClanRewards:
             self.distributed_items[available_item] = { 'quantity': 0, 'max': self.available_items[available_item], 'history': [] }
 
 
-    def _get_item_to_distribute(self, demands):
+    def _get_current_demand(self, demands):
         for demand in demands:
             if demand['quantity'] > 0:
                 for demanded_item in demand['items']:
                     if demanded_item in self.available_items and self.available_items[demanded_item] > 0:
                         return demanded_item
+
+
+    def _get_item_to_distribute(self, demand):
+        if demand in self.available_items and self.available_items[demand] > 0:
+            return f"{demand} ({self.distributed_items[demand]['quantity'] + 1}/{self.distributed_items[demand]['max']})"
 
         return None
