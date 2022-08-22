@@ -8,3 +8,8 @@ def get_clan_mates():
 
 def get_items():
     return items
+
+
+def get_item_price():
+    return 50000
+    
