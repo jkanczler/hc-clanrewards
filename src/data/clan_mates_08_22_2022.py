@@ -59,7 +59,7 @@ clan_mates = [
         'name': 'Josh',
         'glory': 179659,
         'demands': [
-            { 'items': ['epic_spirit'], 'quantity': 2 },            
+            { 'items': ['epic_spirit'], 'quantity': 2 },
             { 'items': ['elixir_pierce', 'elixir_sp', 'elixir_forti'], 'quantity': 3 },
             { 'items': ['lego_book'], 'quantity': 2 },
             { 'items': ['badge'], 'quantity': 1 }

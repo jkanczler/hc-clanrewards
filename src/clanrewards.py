@@ -1,7 +1,10 @@
+import data
+
+
 class ClanRewards:
-    def __init__(self, available_items, item_price):
-        self.available_items = available_items
-        self._item_price = item_price
+    def __init__(self):
+        self.available_items = data.get_items()
+        self._item_price = data.get_item_price()
         self._init_distributed_items()
 
 
@@ -11,9 +14,7 @@ class ClanRewards:
 
         # if we can distribute an item, properly register quantities and history:
         if not item_to_distribute is None:
-            self.distributed_items[current_demand]['quantity'] += 1
-            self.available_items[current_demand] -= 1
-            self.distributed_items[current_demand]['history'].append(f"{item_to_distribute} kiosztva {clan_mate.name} klántagnak {clan_mate.glory} glorynál.")
+            self._update_store(clan_mate, current_demand, item_to_distribute)
 
         clan_mate.give_item(item_to_distribute)
 
@@ -33,11 +34,17 @@ class ClanRewards:
         print()
 
 
+    def _update_store(self, clan_mate, current_demand, item_to_distribute):
+        self.distributed_items[current_demand]['quantity'] += 1
+        self.available_items[current_demand] -= 1
+        self.distributed_items[current_demand]['history'].append(f"{item_to_distribute} kiosztva {clan_mate.name} klántagnak {clan_mate.glory} glorynál.")
+
+
     def _init_distributed_items(self):
         self.distributed_items = {}
 
-        for available_item in self.available_items:
-            self.distributed_items[available_item] = { 'quantity': 0, 'max': self.available_items[available_item], 'history': [] }
+        for item_name, item_count in self.available_items.items():
+            self.distributed_items[item_name] = { 'quantity': 0, 'max': item_count, 'history': [] }
 
 
     def _get_current_demand(self, demands):
@@ -46,6 +53,8 @@ class ClanRewards:
                 for demanded_item in demand['items']:
                     if demanded_item in self.available_items and self.available_items[demanded_item] > 0:
                         return demanded_item
+
+        return None
 
 
     def _get_item_to_distribute(self, demand):

@@ -3,6 +3,8 @@ from clanmate import ClanMate
 from clanrewards import ClanRewards
 
 
+# Only one public method as this is the entry point to the application.
+# pylint: disable=too-few-public-methods
 class ClanRewardsDistributor:
     # Each clan mate can receive this many rewards
     _number_of_rewards = 5
@@ -33,12 +35,11 @@ class ClanRewardsDistributor:
         clan_mate_data_list = data.get_clan_mates()
 
         for clan_mate_data in clan_mate_data_list:
-            self._clan_mates.append(ClanMate(clan_mate_data, self._item_price))
+            self._clan_mates.append(ClanMate(clan_mate_data))
 
 
     def _init_clan_rewards(self):
-        _available_items = data.get_items()
-        self.clan_rewards = ClanRewards(_available_items, self._item_price)
+        self.clan_rewards = ClanRewards()
 
 
     def _distribute_clan_rewards(self):
@@ -49,7 +50,10 @@ class ClanRewardsDistributor:
         next_clan_mate = self._get_next_clan_mate()
         while next_clan_mate is not None:
             item_received = self.clan_rewards.distribute_item(next_clan_mate)
-            print(f"{next_clan_mate.name} megkapja a következő tárgyat: '{item_received}'. Glory levonás: {next_clan_mate.glory + self._item_price} - {self._item_price} = {next_clan_mate.glory}")
+            
+            reward_log = f"{next_clan_mate.name} megkapja a következő tárgyat: '{item_received}'."
+            glory_log = f"Glory levonás: {next_clan_mate.glory + self._item_price} - {self._item_price} = {next_clan_mate.glory}"
+            print(f"{reward_log} {glory_log}")
 
             next_clan_mate = self._get_next_clan_mate()
 
