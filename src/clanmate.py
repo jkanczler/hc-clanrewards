@@ -17,11 +17,12 @@ class ClanMate:
         self.rewards.append(item_to_give)
         self.glory -= self._item_price
 
-        for demand in self.demands:
-            for item in demand['items']:
-                if item_to_give.startswith(item):
-                    # Reduce the demanded quantity
-                    demand['quantity'] -= 1
+        if item_to_give:
+            for demand in self.demands:
+                for item in demand['items']:
+                    if item_to_give.startswith(item):
+                        # Reduce the demanded quantity
+                        demand['quantity'] -= 1
 
 
     def print_demands(self):
