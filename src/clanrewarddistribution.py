@@ -75,7 +75,7 @@ class ClanRewardsDistributor:
         print('--- Jutalmak Ember Szerint ---')
 
         for clan_mate in self._clan_mates:
-            print(f"{clan_mate.name} kérései és jutalma:")
+            print(f"{clan_mate.name} kérése és jutalma:")
 
             clan_mate.print_demands()
             clan_mate.print_rewards()
