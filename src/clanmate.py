@@ -28,7 +28,7 @@ class ClanMate:
     def print_demands(self):
         demands = 'Kérés: '
         for demand in self.demands:
-            demands += f"{demand['items']} ({demand['original']})"
+            demands += f"{demand['original']}db {' és/vagy '.join(demand['items'])}"
             demands += "; "
 
         print(demands)
