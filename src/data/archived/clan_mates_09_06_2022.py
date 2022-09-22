@@ -18,7 +18,7 @@ clan_mates = [
             { 'items': ['dia_100', 'dia_50'], 'quantity': 1 },
             { 'items': ['ticket'], 'quantity': 1 },
             { 'items': ['elixir_health'], 'quantity': 1 },
-            { 'items': ['ether', 'torch'], 'quantity': 5 },
+            { 'items': ['elixir_magic_armor', 'ether', 'torch'], 'quantity': 5 },
         ],
     },
     {
@@ -50,7 +50,7 @@ clan_mates = [
             { 'items': ['goblin'], 'quantity': 2 },
             { 'items': ['clan_coin'], 'quantity': 2 },
             { 'items': ['premium'], 'quantity': 5 },
-            { 'items': ['ether', 'torch'], 'quantity': 5 },
+            { 'items': ['elixir_magic_armor', 'ether', 'torch'], 'quantity': 5 },
         ],
     },
     {
@@ -74,7 +74,7 @@ clan_mates = [
             { 'items': ['premium'], 'quantity': 5 },
             { 'items': ['clan_coin'], 'quantity': 1 },
             { 'items': ['spirit_lego'], 'quantity': 1 },
-            { 'items': ['ether', 'torch'], 'quantity': 5 },
+            { 'items': ['elixir_magic_armor', 'ether', 'torch'], 'quantity': 5 },
         ],
     },
     {
@@ -84,7 +84,7 @@ clan_mates = [
             { 'items': ['dia_100', 'dia_50'], 'quantity': 1 },
             { 'items': ['badge'], 'quantity': 3 },
             { 'items': ['spirit_epic'], 'quantity': 1 },
-            { 'items': ['ether', 'torch'], 'quantity': 5 },
+            { 'items': ['elixir_magic_armor', 'ether', 'torch'], 'quantity': 5 },
         ],
     },
     {
@@ -93,7 +93,7 @@ clan_mates = [
         'demands': [
             { 'items': ['spirit_lego', 'spirit_epic'], 'quantity': 2 },
             { 'items': ['dia_100', 'dia_50'], 'quantity': 1 },
-            { 'items': ['elixir_health', 'elixir_pierce', 'elixir_accu', 'elixir_magic_pierce', 'elixir_sp', 'elixir_magic_armor'], 'quantity': 2 },
+            { 'items': ['elixir_health', 'elixir_pierce', 'elixir_accu', 'elixir_magic_pierce', 'elixir_sp', 'elixir_magic_armor'], 'quantity': 3 },
             { 'items': ['totem_lego', 'totem_epic'], 'quantity': 5 },
         ],
     },
@@ -116,7 +116,7 @@ clan_mates = [
             { 'items': ['clan_coin'], 'quantity': 5 },
             { 'items': ['dia_100', 'dia_50'], 'quantity': 5 },
             { 'items': ['ticket'], 'quantity': 5 },
-            { 'items': ['ether', 'torch'], 'quantity': 5 },
+            { 'items': ['elixir_magic_armor', 'ether', 'torch'], 'quantity': 5 },
         ],
     },
     {
