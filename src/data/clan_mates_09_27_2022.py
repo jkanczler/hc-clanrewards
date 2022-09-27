@@ -1,7 +1,7 @@
 clan_mates = [
     {
         'name': 'Juckos',
-        'glory': 0,
+        'glory': 122750,
         'demands': [
             { 'items': ['spirit_lego', 'spirit_epic'], 'quantity': 2 },
             { 'items': ['clan_coin'], 'quantity': 2 },
