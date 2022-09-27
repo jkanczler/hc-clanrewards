@@ -65,7 +65,7 @@ clan_mates = [
             { 'items': ['book_2_lego'], 'quantity': 1 },
             { 'items': ['dia'], 'quantity': 1 },
             { 'items': ['premium'], 'quantity': 1 },
-            { 'items': ['goblin'], 'quantity': 5 },
+            { 'items': ['shard_epic'], 'quantity': 5 },
         ],
     },
     {
@@ -102,6 +102,7 @@ clan_mates = [
         'name': 'Josh',
         'glory': 121279,
         'demands': [
+            { 'items': ['spirit_epic'], 'quantity': 2 },
             { 'items': ['eol_essence'], 'quantity': 1 },
             { 'items': ['elixir_health'], 'quantity': 1 },
             { 'items': ['elixir_dodge'], 'quantity': 1 },
