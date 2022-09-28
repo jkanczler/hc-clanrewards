@@ -1,5 +1,28 @@
 clan_mates = [
     {
+        'name': 'Amare',
+        'glory': 333812,
+        'demands': [
+            { 'items': ['dawn_feather'], 'quantity': 1 },
+            { 'items': ['spirit_lego', 'spirit_epic'], 'quantity': 2 },
+            { 'items': ['book_2_lego', 'book_1_lego'], 'quantity': 1 },
+            { 'items': ['dia'], 'quantity': 1 },
+            { 'items': ['elixir'], 'quantity': 1 },
+        ],
+    },
+    {
+        'name': 'KisCsako88',
+        'glory': 245117,
+        'demands': [
+            { 'items': ['spirit_lego'], 'quantity': 2 },
+            { 'items': ['inventor_essence'], 'quantity': 1 },
+            { 'items': ['book_2_lego', 'book_1_lego'], 'quantity': 1 },
+            { 'items': ['dia'], 'quantity': 2 },
+            { 'items': ['protective_barrier'], 'quantity': 1 },
+            { 'items': ['shard_epic'], 'quantity': 1 },
+        ],
+    },
+    {
         'name': 'Juckos',
         'glory': 122750,
         'demands': [
@@ -20,33 +43,23 @@ clan_mates = [
         ],
     },
     {
-        'name': 'Goku',
-        'glory': 0,
-        'demands': [
-            { 'items': ['spirit_lego'], 'quantity': 2 },
-            { 'items': ['elixir_health', 'elixir_dodge'], 'quantity': 2 },
-            { 'items': ['clan_coin'], 'quantity': 5 },
-            { 'items': ['dia'], 'quantity': 1 },
-            { 'items': ['ticket'], 'quantity': 1 },
-        ],
-    },
-    {
-        'name': 'Amare',
-        'glory': 0,
-        'demands': [
-            { 'items': ['spirit_lego', 'spirit_epic'], 'quantity': 2 },
-            { 'items': ['reaver_essence'], 'quantity': 1 },
-            { 'items': ['dia'], 'quantity': 1 },
-            { 'items': ['elixir_dodge', 'elixir_accu'], 'quantity': 1 },
-        ],
-    },
-    {
         'name': 'Gizi',
-        'glory': 0,
+        'glory': 87443,
         'demands': [
-            { 'items': ['premium'], 'quantity': 2 },
-            { 'items': ['goblin'], 'quantity': 2 },
-            { 'items': ['gem_crit', 'gem_dmg'], 'quantity': 1 },
+            { 'items': ['gem_health'], 'quantity': 2 },
+            { 'items': ['premium'], 'quantity': 1 },
+            { 'items': ['goblin'], 'quantity': 1 },
+            { 'items': ['totem_lego'], 'quantity': 1 },
+        ],
+    },
+    {
+        'name': 'Goku',
+        'glory': 48752,
+        'demands': [
+            { 'items': ['clan_coin'], 'quantity': 5 },
+            { 'items': ['dia'], 'quantity': 2 },
+            { 'items': ['ticket'], 'quantity': 2 },
+            { 'items': ['goblin'], 'quantity': 1 },
         ],
     },
     {
@@ -73,19 +86,6 @@ clan_mates = [
             { 'items': ['book_2_lego', 'book_1_lego'], 'quantity': 2 },
             { 'items': ['clan_coin'], 'quantity': 1 },
             { 'items': ['goblin', 'premium'], 'quantity': 5 },
-        ],
-    },
-    {
-        'name': 'KisCsako88',
-        'glory': 0,
-        'demands': [
-            { 'items': ['spirit_lego', 'spirit_epic'], 'quantity': 2 },
-            { 'items': ['eol_essence'], 'quantity': 1 },
-            { 'items': ['bastion_essence'], 'quantity': 1 },
-            { 'items': ['book_2_lego'], 'quantity': 1 },
-            { 'items': ['dia'], 'quantity': 1 },
-            { 'items': ['premium'], 'quantity': 1 },
-            { 'items': ['shard_epic'], 'quantity': 5 },
         ],
     },
     {
