@@ -33,8 +33,6 @@ items = {
     'book_1_lego': 1,
     'spirit_lego': 6,
     'spirit_epic': 6,
-    'dawn_feather': 1,
     'protective_barrier': 1,
     'writings': 1,
-    'potion_of_courage': 1,
 }

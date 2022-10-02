@@ -3,7 +3,7 @@ clan_mates = [
         'name': 'Amare',
         'glory': 333812,
         'demands': [
-            { 'items': ['dawn_feather'], 'quantity': 1 },
+            { 'items': ['essence_eclipse'], 'quantity': 1 },
             { 'items': ['spirit_lego', 'spirit_epic'], 'quantity': 2 },
             { 'items': ['book_2_lego', 'book_1_lego'], 'quantity': 1 },
             { 'items': ['dia'], 'quantity': 1 },
@@ -14,7 +14,7 @@ clan_mates = [
         'name': 'Ayrisz',
         'glory': 299564,
         'demands': [
-            { 'items': ['potion_of_courage'], 'quantity': 1 },
+            { 'items': ['essence_legio'], 'quantity': 1 },
             { 'items': ['book_2_lego'], 'quantity': 1 },
             { 'items': ['spirit_lego', 'spirit_epic'], 'quantity': 2 },
             { 'items': ['clan_coin'], 'quantity': 1 },
