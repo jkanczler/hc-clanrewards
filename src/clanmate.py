@@ -29,9 +29,10 @@ class ClanMate:
         demands = 'Kérés: '
         for demand in self.demands:
             demands += f"{demand['original']}db {' és/vagy '.join(demand['items'])}"
-            demands += "; "
+            demands += ";  "
 
-        print(demands)
+        demands += '\n'
+        return demands
 
 
     def print_rewards(self):
@@ -44,4 +45,5 @@ class ClanMate:
 
             rewards += "; "
 
-        print(rewards)
+        rewards += '\n'
+        return rewards

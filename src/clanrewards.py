@@ -22,16 +22,18 @@ class ClanRewards:
 
 
     def print_distribution_history(self):
-        print('--- Jutalmak Tárgy Szerint ---')
+        distriubtion_history = '--- Jutalmak Tárgy Szerint ---\n'
 
         index = 0
         for item in self.available_items:
             if self.distributed_items.get(item):
                 for history in self.distributed_items[item]['history']:
                     index += 1
-                    print(f'{index}. {history}')
+                    distriubtion_history += f'{index}. {history}\n'
 
-        print()
+        distriubtion_history += '\n'
+        
+        return distriubtion_history
 
 
     def _update_store(self, clan_mate, current_demand, item_to_distribute):

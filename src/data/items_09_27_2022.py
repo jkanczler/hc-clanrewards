@@ -35,4 +35,5 @@ items = {
     'spirit_epic': 6,
     'protective_barrier': 1,
     'writings': 1,
+    'soul_epic': 2,
 }

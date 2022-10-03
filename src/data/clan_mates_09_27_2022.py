@@ -79,6 +79,7 @@ clan_mates = [
             { 'items': ['clan_coin'], 'quantity': 2 },
             { 'items': ['dia'], 'quantity': 2 },
             { 'items': ['book_2_lego', 'book_1_lego'], 'quantity': 2 },
+            { 'items': ['ticket'], 'quantity': 1 },
         ],
     },
     {
@@ -119,6 +120,17 @@ clan_mates = [
             { 'items': ['goblin'], 'quantity': 1 },
             { 'items': ['totem_lego'], 'quantity': 3 },
             { 'items': ['badge'], 'quantity': 1 },
+        ],
+    },
+    {
+        'name': 'api',
+        'glory': 58475,
+        'demands': [
+            { 'items': ['badge'], 'quantity': 1 },
+            { 'items': ['dia'], 'quantity': 1 },
+            { 'items': ['goblin'], 'quantity': 1 },
+            { 'items': ['clan_coin'], 'quantity': 1 },
+            { 'items': ['soul_epic'], 'quantity': 2 },
         ],
     },
     {

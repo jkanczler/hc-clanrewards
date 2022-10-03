@@ -1,3 +1,4 @@
+from datetime import date
 import data
 from clanmate import ClanMate
 from clanrewards import ClanRewards
@@ -50,7 +51,7 @@ class ClanRewardsDistributor:
         next_clan_mate = self._get_next_clan_mate()
         while next_clan_mate is not None:
             item_received = self.clan_rewards.distribute_item(next_clan_mate)
-            
+
             reward_log = f"{next_clan_mate.name} megkapja a következő tárgyat: '{item_received}'."
             glory_log = f"Glory levonás: {next_clan_mate.glory + self._item_price} - {self._item_price} = {next_clan_mate.glory}"
             print(f"{reward_log} {glory_log}")
@@ -72,18 +73,27 @@ class ClanRewardsDistributor:
 
 
     def _print_results(self):
-        print('--- Jutalmak Ember Szerint ---')
+        result = ''
+        result += '--- Jutalmak Ember Szerint ---\n'
 
         for clan_mate in self._clan_mates:
-            print(f"{clan_mate.name} kérése és jutalma:")
+            result += f"{clan_mate.name} kérése és jutalma:\n"
 
-            clan_mate.print_demands()
-            clan_mate.print_rewards()
+            result += clan_mate.print_demands()
+            result += clan_mate.print_rewards()
 
-            print()
+            result += '\n'
 
-        print()
-        self.clan_rewards.print_distribution_history()
+        result += '\n'
+        result += self.clan_rewards.print_distribution_history()
+
+        print(result)
+        self._save_results_to_file(result)
+
+
+    def _save_results_to_file(self, result):
+        with open(f'./rewards_history/rewards_{date.today()}.txt', 'a', encoding='utf-8') as output:
+            output.write(result)
 
 
     def _validate_items(self):
