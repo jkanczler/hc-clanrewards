@@ -104,18 +104,18 @@ Jutalom: clan_coin (2/6); clan_coin (4/6); clan_coin (6/6); ticket (5/6); ticket
 49. book_2_lego (1/2) kiosztva Ayrisz klántagnak 249564 glorynál.
 50. book_2_lego (2/2) kiosztva Amare klántagnak 183812 glorynál.
 51. book_1_lego (1/1) kiosztva KisCsako88 klántagnak 95117 glorynál.
-52. spirit_lego (1/6) kiosztva Amare klántagnak 283812 glorynál.
-53. spirit_lego (2/6) kiosztva KisCsako88 klántagnak 245117 glorynál.
-54. spirit_lego (3/6) kiosztva Amare klántagnak 233812 glorynál.
-55. spirit_lego (4/6) kiosztva Chee klántagnak 227843 glorynál.
-56. spirit_lego (5/6) kiosztva Ayrisz klántagnak 199564 glorynál.
-57. spirit_lego (6/6) kiosztva KisCsako88 klántagnak 195117 glorynál.
-58. spirit_epic (1/6) kiosztva Ayrisz klántagnak 149564 glorynál.
-59. spirit_epic (2/6) kiosztva Chee the 3rd klántagnak 137861 glorynál.
-60. spirit_epic (3/6) kiosztva Juckos klántagnak 122750 glorynál.
-61. spirit_epic (4/6) kiosztva Chee the 3rd klántagnak 87861 glorynál.
-62. spirit_epic (5/6) kiosztva Juckos klántagnak 72750 glorynál.
-63. spirit_epic (6/6) kiosztva Josh klántagnak 63694 glorynál.
+52. spirit_lego_189 (1/6) kiosztva Amare klántagnak 283812 glorynál.
+53. spirit_lego_188 (2/6) kiosztva KisCsako88 klántagnak 245117 glorynál.
+54. spirit_lego_181 (3/6) kiosztva Amare klántagnak 233812 glorynál.
+55. spirit_lego_177 (4/6) kiosztva Chee klántagnak 227843 glorynál.
+56. spirit_lego_159 (5/6) kiosztva Ayrisz klántagnak 199564 glorynál.
+57. spirit_lego_155 (6/6) kiosztva KisCsako88 klántagnak 195117 glorynál.
+58. spirit_epic_284 (1/6) kiosztva Ayrisz klántagnak 149564 glorynál.
+59. spirit_epic_269 (2/6) kiosztva Chee the 3rd klántagnak 137861 glorynál.
+60. spirit_epic_264 (3/6) kiosztva Juckos klántagnak 122750 glorynál.
+61. spirit_epic_256 (4/6) kiosztva Chee the 3rd klántagnak 87861 glorynál.
+62. spirit_epic_238 (5/6) kiosztva Juckos klántagnak 72750 glorynál.
+63. spirit_epic_173 (6/6) kiosztva Josh klántagnak 63694 glorynál.
 64. soul_epic (1/2) kiosztva api klántagnak -91525 glorynál.
 65. soul_epic (2/2) kiosztva api klántagnak -141525 glorynál.
 
