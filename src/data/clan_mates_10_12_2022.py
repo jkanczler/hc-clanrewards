@@ -39,6 +39,15 @@ clan_mates = [
         ],
     },
     {
+        'name': 'emmi90',
+        'glory': 83653,
+        'demands': [
+            { 'items': ['premium'], 'quantity': 5 },
+            { 'items': ['torch_2'], 'quantity': 5 },
+            { 'items': ['goblin'], 'quantity': 5 },            
+        ],
+    },
+    {
         'name': 'Amare',
         'glory': 0,
         'demands': [
@@ -109,16 +118,6 @@ clan_mates = [
             { 'items': ['dia'], 'quantity': 2 },
             { 'items': ['book_2_lego', 'book_1_lego'], 'quantity': 2 },
             { 'items': ['ticket'], 'quantity': 1 },
-        ],
-    },
-    {
-        'name': 'emmi90',
-        'glory': 0,
-        'demands': [
-            { 'items': ['premium'], 'quantity': 5 },
-            { 'items': ['goblin'], 'quantity': 5 },
-            { 'items': ['torch_2'], 'quantity': 5 },
-            { 'items': ['clan_coin'], 'quantity': 5 },
         ],
     },
     {
