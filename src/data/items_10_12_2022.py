@@ -1,5 +1,6 @@
 items = {
-    'totem_lego': 3,
+    'totem_lego_eagle': 1,
+    'totem_lego': 2,
     'totem_epic': 11,
     'gem_armor': 1,
     'gem_magic_armor': 1,

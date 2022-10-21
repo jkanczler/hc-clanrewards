@@ -1,0 +1,166 @@
+--- Jutalmak Ember Szerint ---
+Amare kérése és jutalma:
+Kérés: 1db essence_eclipse;  2db spirit_lego és/vagy spirit_epic;  2db elixir_dmg és/vagy elixir_health;  1db book_2_lego és/vagy book_1_lego;  1db dia;  1db ticket;  
+Jutalom: essence_eclipse (1/1); spirit_lego (1/6); spirit_lego (3/6); elixir_dmg (1/1); elixir_health (1/1); 
+
+Chemotox kérése és jutalma:
+Kérés: 2db spirit_lego és/vagy spirit_epic;  5db ticket és/vagy badge és/vagy ether_catcher és/vagy ether és/vagy shard_epic;  
+Jutalom: spirit_lego (2/6); spirit_lego (5/6); ticket (1/8); ticket (2/8); ticket (3/8); 
+
+Ayrisz kérése és jutalma:
+Kérés: 1db book_2_lego;  1db spirit_lego és/vagy spirit_epic;  1db clan_coin;  1db dia;  1db badge;  
+Jutalom: book_2_lego (1/2); spirit_lego (6/6); clan_coin (1/6); dia (2/5); badge (1/6); 
+
+KisCsako88 kérése és jutalma:
+Kérés: 2db spirit_lego;  1db book_2_lego és/vagy book_1_lego;  1db essence_inci;  1db dia;  3db premium;  1db elixir_health és/vagy elixir_pierce és/vagy elixir_dmg és/vagy elixir_sp és/vagy elixir_dodge és/vagy elixir_armor és/vagy elixir_magic_pierce és/vagy elixir_magic_armor és/vagy elixir_magic_dmg;  1db shard_epic;  
+Jutalom: spirit_lego (4/6); book_2_lego (2/2); essence_inci (1/1); dia (4/5); premium (6/7); 
+
+Chee kérése és jutalma:
+Kérés: 2db spirit_lego és/vagy spirit_epic;  1db elixir_health;  1db elixir_dmg;  1db elixir_dodge;  1db elixir_pierce;  1db elixir_sp és/vagy elixir_armor és/vagy elixir_magic_pierce és/vagy elixir_magic_armor és/vagy elixir_magic_dmg;  1db badge;  1db ticket;  2db dia;  
+Jutalom: spirit_epic (1/6); spirit_epic (5/6); elixir_dodge (1/1); elixir_pierce (1/1); elixir_armor (1/1); 
+
+Juckos kérése és jutalma:
+Kérés: 2db spirit_lego és/vagy spirit_epic;  2db clan_coin;  2db dia;  2db book_2_lego és/vagy book_1_lego;  5db ticket és/vagy badge és/vagy ether_catcher és/vagy ether és/vagy shard_epic;  
+Jutalom: spirit_epic (2/6); spirit_epic (6/6); clan_coin (3/6); clan_coin (6/6); ticket (6/8); 
+
+Khelemelon kérése és jutalma:
+Kérés: 2db spirit_lego és/vagy spirit_epic;  5db dia;  5db badge;  
+Jutalom: spirit_epic (3/6); dia (1/5); dia (3/5); badge (3/6); badge (5/6); 
+
+Josh kérése és jutalma:
+Kérés: 2db spirit_lego és/vagy spirit_epic;  5db clan_coin;  1db book_2_lego és/vagy book_1_lego;  5db elixir_health és/vagy elixir_pierce és/vagy elixir_dmg és/vagy elixir_sp és/vagy elixir_dodge és/vagy elixir_magic_pierce és/vagy elixir_magic_armor és/vagy elixir_magic_dmg;  5db dia;  
+Jutalom: spirit_epic (4/6); clan_coin (2/6); clan_coin (4/6); elixir_sp (1/1); elixir_magic_armor (1/1); 
+
+Gizi kérése és jutalma:
+Kérés: 2db premium;  2db goblin;  1db totem_lego_eagle;  2db gem_dodge és/vagy gem_crit és/vagy gem_armor és/vagy gem_magic_armor és/vagy gem_magic_damage;  
+Jutalom: premium (1/7); premium (4/7); goblin (3/7); goblin (6/7); gem_magic_damage (1/1); 
+
+Nasde kérése és jutalma:
+Kérés: 1db essence_eclipse;  1db essence_paladin;  1db essence_inci;  5db goblin;  5db premium;  5db ticket és/vagy badge és/vagy ether_catcher és/vagy ether és/vagy shard_epic;  
+Jutalom: essence_paladin (1/1); goblin (1/7); goblin (4/7); goblin (7/7); ether (2/7); 
+
+Chee the 3rd kérése és jutalma:
+Kérés: 1db spirit_lego és/vagy spirit_epic;  1db book_2_lego és/vagy book_1_lego;  2db dia;  2db premium;  2db goblin;  5db essence_shadow és/vagy essence_paladin és/vagy essence_pyromancer és/vagy essence_eclipse és/vagy essence_necromancer és/vagy essence_inci;  5db ticket és/vagy badge és/vagy ether_catcher és/vagy ether és/vagy shard_epic;  
+Jutalom: book_1_lego (1/1); dia (5/5); premium (7/7); essence_necromancer (1/1); ether (5/7); 
+
+emmi90 kérése és jutalma:
+Kérés: 5db premium;  5db torch_2 és/vagy torch_1;  5db goblin;  
+Jutalom: premium (2/7); premium (5/7); torch_2 (1/2); torch_2 (2/2); torch_1 (1/1); 
+
+robert kérése és jutalma:
+Kérés: 5db essence_pyromancer;  2db dia;  1db spirit_epic;  1db gem_crit;  1db badge;  5db ticket és/vagy badge és/vagy ether_catcher és/vagy ether és/vagy shard_epic;  
+Jutalom: essence_pyromancer (1/1); badge (2/6); ticket (5/8); badge (6/6); ether (6/7); 
+
+api kérése és jutalma:
+Kérés: 1db totem_lego_eagle;  1db dia;  1db badge;  1db goblin;  1db clan_coin;  1db spirit_lego és/vagy spirit_epic;  5db ticket és/vagy badge és/vagy ether_catcher és/vagy ether és/vagy shard_epic;  
+Jutalom: totem_lego_eagle (1/1); badge (4/6); goblin (5/7); ether_catcher (1/2); ether (7/7); 
+
+Libra kérése és jutalma:
+Kérés: 1db premium;  1db goblin;  1db gem_armor;  5db ticket és/vagy badge és/vagy ether_catcher és/vagy ether és/vagy shard_epic;  
+Jutalom: premium (3/7); goblin (2/7); ticket (7/8); ether_catcher (2/2); shard_epic (1/5); 
+
+Weeck kérése és jutalma:
+Kérés: 1db essence_eclipse;  1db gem_crit;  1db gem_dodge;  1db dia;  1db elixir_health és/vagy elixir_pierce és/vagy elixir_dmg és/vagy elixir_sp és/vagy elixir_dodge és/vagy elixir_armor és/vagy elixir_magic_pierce és/vagy elixir_magic_armor és/vagy elixir_magic_dmg;  5db ticket és/vagy badge és/vagy ether_catcher és/vagy ether és/vagy shard_epic;  
+Jutalom: gem_crit (1/1); gem_dodge (1/1); elixir_magic_pierce (1/1); ether (1/7); shard_epic (2/5); 
+
+Segi kérése és jutalma:
+Kérés: 1db essence_inci;  1db essence_shadow;  1db gem_armor;  1db gem_magic_armor;  1db clan_coin;  5db ticket és/vagy badge és/vagy ether_catcher és/vagy ether és/vagy shard_epic;  
+Jutalom: essence_shadow (1/1); gem_armor (1/1); gem_magic_armor (1/1); ether (3/7); shard_epic (3/5); 
+
+Goku kérése és jutalma:
+Kérés: 5db clan_coin;  2db dia;  2db ticket;  1db goblin;  5db ticket és/vagy badge és/vagy ether_catcher és/vagy ether és/vagy shard_epic;  
+Jutalom: clan_coin (5/6); ticket (4/8); ticket (8/8); ether (4/7); shard_epic (4/5); 
+
+
+--- Jutalmak Tárgy Szerint ---
+1. totem_lego_eagle (1/1) kiosztva api klántagnak 67789 glorynál.
+2. gem_armor (1/1) kiosztva Segi klántagnak -13265 glorynál.
+3. gem_magic_armor (1/1) kiosztva Segi klántagnak -63265 glorynál.
+4. gem_magic_damage (1/1) kiosztva Gizi klántagnak -90001 glorynál.
+5. gem_dodge (1/1) kiosztva Weeck klántagnak 12877 glorynál.
+6. gem_crit (1/1) kiosztva Weeck klántagnak 62877 glorynál.
+7. essence_shadow (1/1) kiosztva Segi klántagnak 36735 glorynál.
+8. essence_paladin (1/1) kiosztva Nasde klántagnak 91258 glorynál.
+9. essence_pyromancer (1/1) kiosztva robert klántagnak 79628 glorynál.
+10. essence_eclipse (1/1) kiosztva Amare klántagnak 338679 glorynál.
+11. essence_necromancer (1/1) kiosztva Chee the 3rd klántagnak -65046 glorynál.
+12. essence_inci (1/1) kiosztva KisCsako88 klántagnak 116252 glorynál.
+13. shard_epic (1/5) kiosztva Libra klántagnak -133525 glorynál.
+14. shard_epic (2/5) kiosztva Weeck klántagnak -137123 glorynál.
+15. shard_epic (3/5) kiosztva Segi klántagnak -163265 glorynál.
+16. shard_epic (4/5) kiosztva Goku klántagnak -163973 glorynál.
+17. elixir_health (1/1) kiosztva Amare klántagnak 138679 glorynál.
+18. elixir_pierce (1/1) kiosztva Chee klántagnak 24681 glorynál.
+19. elixir_dmg (1/1) kiosztva Amare klántagnak 188679 glorynál.
+20. elixir_sp (1/1) kiosztva Josh klántagnak 8099 glorynál.
+21. elixir_dodge (1/1) kiosztva Chee klántagnak 74681 glorynál.
+22. elixir_armor (1/1) kiosztva Chee klántagnak -25319 glorynál.
+23. elixir_magic_pierce (1/1) kiosztva Weeck klántagnak -37123 glorynál.
+24. elixir_magic_armor (1/1) kiosztva Josh klántagnak -41901 glorynál.
+25. clan_coin (1/6) kiosztva Ayrisz klántagnak 131555 glorynál.
+26. clan_coin (2/6) kiosztva Josh klántagnak 108099 glorynál.
+27. clan_coin (3/6) kiosztva Juckos klántagnak 70398 glorynál.
+28. clan_coin (4/6) kiosztva Josh klántagnak 58099 glorynál.
+29. clan_coin (5/6) kiosztva Goku klántagnak 36027 glorynál.
+30. clan_coin (6/6) kiosztva Juckos klántagnak 20398 glorynál.
+31. dia (1/5) kiosztva Khelemelon klántagnak 119702 glorynál.
+32. dia (2/5) kiosztva Ayrisz klántagnak 81555 glorynál.
+33. dia (3/5) kiosztva Khelemelon klántagnak 69702 glorynál.
+34. dia (4/5) kiosztva KisCsako88 klántagnak 66252 glorynál.
+35. dia (5/5) kiosztva Chee the 3rd klántagnak 34954 glorynál.
+36. premium (1/7) kiosztva Gizi klántagnak 109999 glorynál.
+37. premium (2/7) kiosztva emmi90 klántagnak 83653 glorynál.
+38. premium (3/7) kiosztva Libra klántagnak 66475 glorynál.
+39. premium (4/7) kiosztva Gizi klántagnak 59999 glorynál.
+40. premium (5/7) kiosztva emmi90 klántagnak 33653 glorynál.
+41. premium (6/7) kiosztva KisCsako88 klántagnak 16252 glorynál.
+42. premium (7/7) kiosztva Chee the 3rd klántagnak -15046 glorynál.
+43. goblin (1/7) kiosztva Nasde klántagnak 41258 glorynál.
+44. goblin (2/7) kiosztva Libra klántagnak 16475 glorynál.
+45. goblin (3/7) kiosztva Gizi klántagnak 9999 glorynál.
+46. goblin (4/7) kiosztva Nasde klántagnak -8742 glorynál.
+47. goblin (5/7) kiosztva api klántagnak -32211 glorynál.
+48. goblin (6/7) kiosztva Gizi klántagnak -40001 glorynál.
+49. goblin (7/7) kiosztva Nasde klántagnak -58742 glorynál.
+50. ticket (1/8) kiosztva Chemotox klántagnak 149100 glorynál.
+51. ticket (2/8) kiosztva Chemotox klántagnak 99100 glorynál.
+52. ticket (3/8) kiosztva Chemotox klántagnak 49100 glorynál.
+53. ticket (4/8) kiosztva Goku klántagnak -13973 glorynál.
+54. ticket (5/8) kiosztva robert klántagnak -20372 glorynál.
+55. ticket (6/8) kiosztva Juckos klántagnak -29602 glorynál.
+56. ticket (7/8) kiosztva Libra klántagnak -33525 glorynál.
+57. ticket (8/8) kiosztva Goku klántagnak -63973 glorynál.
+58. badge (1/6) kiosztva Ayrisz klántagnak 31555 glorynál.
+59. badge (2/6) kiosztva robert klántagnak 29628 glorynál.
+60. badge (3/6) kiosztva Khelemelon klántagnak 19702 glorynál.
+61. badge (4/6) kiosztva api klántagnak 17789 glorynál.
+62. badge (5/6) kiosztva Khelemelon klántagnak -30298 glorynál.
+63. badge (6/6) kiosztva robert klántagnak -70372 glorynál.
+64. torch_2 (1/2) kiosztva emmi90 klántagnak -16347 glorynál.
+65. torch_2 (2/2) kiosztva emmi90 klántagnak -66347 glorynál.
+66. torch_1 (1/1) kiosztva emmi90 klántagnak -116347 glorynál.
+67. ether_catcher (1/2) kiosztva api klántagnak -82211 glorynál.
+68. ether_catcher (2/2) kiosztva Libra klántagnak -83525 glorynál.
+69. ether (1/7) kiosztva Weeck klántagnak -87123 glorynál.
+70. ether (2/7) kiosztva Nasde klántagnak -108742 glorynál.
+71. ether (3/7) kiosztva Segi klántagnak -113265 glorynál.
+72. ether (4/7) kiosztva Goku klántagnak -113973 glorynál.
+73. ether (5/7) kiosztva Chee the 3rd klántagnak -115046 glorynál.
+74. ether (6/7) kiosztva robert klántagnak -120372 glorynál.
+75. ether (7/7) kiosztva api klántagnak -132211 glorynál.
+76. book_2_lego (1/2) kiosztva Ayrisz klántagnak 231555 glorynál.
+77. book_2_lego (2/2) kiosztva KisCsako88 klántagnak 166252 glorynál.
+78. book_1_lego (1/1) kiosztva Chee the 3rd klántagnak 84954 glorynál.
+79. spirit_lego (1/6) kiosztva Amare klántagnak 288679 glorynál.
+80. spirit_lego (2/6) kiosztva Chemotox klántagnak 249100 glorynál.
+81. spirit_lego (3/6) kiosztva Amare klántagnak 238679 glorynál.
+82. spirit_lego (4/6) kiosztva KisCsako88 klántagnak 216252 glorynál.
+83. spirit_lego (5/6) kiosztva Chemotox klántagnak 199100 glorynál.
+84. spirit_lego (6/6) kiosztva Ayrisz klántagnak 181555 glorynál.
+85. spirit_epic (1/6) kiosztva Chee klántagnak 174681 glorynál.
+86. spirit_epic (2/6) kiosztva Juckos klántagnak 170398 glorynál.
+87. spirit_epic (3/6) kiosztva Khelemelon klántagnak 169702 glorynál.
+88. spirit_epic (4/6) kiosztva Josh klántagnak 158099 glorynál.
+89. spirit_epic (5/6) kiosztva Chee klántagnak 124681 glorynál.
+90. spirit_epic (6/6) kiosztva Juckos klántagnak 120398 glorynál.
+
