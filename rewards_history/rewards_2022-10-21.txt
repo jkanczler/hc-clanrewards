@@ -151,16 +151,16 @@ Jutalom: clan_coin (5/6); ticket (4/8); ticket (8/8); ether (4/7); shard_epic (4
 76. book_2_lego (1/2) kiosztva Ayrisz klántagnak 231555 glorynál.
 77. book_2_lego (2/2) kiosztva KisCsako88 klántagnak 166252 glorynál.
 78. book_1_lego (1/1) kiosztva Chee the 3rd klántagnak 84954 glorynál.
-79. spirit_lego (1/6) kiosztva Amare klántagnak 288679 glorynál.
-80. spirit_lego (2/6) kiosztva Chemotox klántagnak 249100 glorynál.
-81. spirit_lego (3/6) kiosztva Amare klántagnak 238679 glorynál.
-82. spirit_lego (4/6) kiosztva KisCsako88 klántagnak 216252 glorynál.
-83. spirit_lego (5/6) kiosztva Chemotox klántagnak 199100 glorynál.
-84. spirit_lego (6/6) kiosztva Ayrisz klántagnak 181555 glorynál.
-85. spirit_epic (1/6) kiosztva Chee klántagnak 174681 glorynál.
-86. spirit_epic (2/6) kiosztva Juckos klántagnak 170398 glorynál.
-87. spirit_epic (3/6) kiosztva Khelemelon klántagnak 169702 glorynál.
-88. spirit_epic (4/6) kiosztva Josh klántagnak 158099 glorynál.
-89. spirit_epic (5/6) kiosztva Chee klántagnak 124681 glorynál.
-90. spirit_epic (6/6) kiosztva Juckos klántagnak 120398 glorynál.
+79. spirit_lego_180 (1/6) kiosztva Amare klántagnak 288679 glorynál.
+80. spirit_lego_176 (2/6) kiosztva Chemotox klántagnak 249100 glorynál.
+81. spirit_lego_153 (3/6) kiosztva Amare klántagnak 238679 glorynál.
+82. spirit_lego_125 (4/6) kiosztva KisCsako88 klántagnak 216252 glorynál.
+83. spirit_lego_120 (5/6) kiosztva Chemotox klántagnak 199100 glorynál.
+84. spirit_lego_107 (6/6) kiosztva Ayrisz klántagnak 181555 glorynál.
+85. spirit_epic_266 (1/6) kiosztva Chee klántagnak 174681 glorynál.
+86. spirit_epic_259 (2/6) kiosztva Juckos klántagnak 170398 glorynál.
+87. spirit_epic_254 (3/6) kiosztva Khelemelon klántagnak 169702 glorynál.
+88. spirit_epic_244 (4/6) kiosztva Josh klántagnak 158099 glorynál.
+89. spirit_epic_212 (5/6) kiosztva Chee klántagnak 124681 glorynál.
+90. spirit_epic_152 (6/6) kiosztva Juckos klántagnak 120398 glorynál.
 
