@@ -92,7 +92,7 @@ class ClanRewardsDistributor:
 
 
     def _save_results_to_file(self, result):
-        with open(f'./rewards_history/rewards_{date.today()}.txt', 'a', encoding='utf-8') as output:
+        with open(f'./rewards_history/rewards_{date.today()}.txt', 'w', encoding='utf-8') as output:
             output.write(result)
 
 
