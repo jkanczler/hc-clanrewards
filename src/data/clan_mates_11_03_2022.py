@@ -50,6 +50,7 @@ clan_mates = [
         'demands': [
             { 'items': ['spirit_lego', 'spirit_epic'], 'quantity': 2 },
             { 'items': ['ticket'], 'quantity': 5 },
+            { 'items': ['ticket', 'badge', 'ether'], 'quantity': 5 }, # extra
         ],
     },
     {
@@ -90,8 +91,19 @@ clan_mates = [
         'demands': [
             { 'items': ['premium'], 'quantity': 2 },
             { 'items': ['goblin'], 'quantity': 2 },
-            { 'items': ['gem_dodge'], 'quantity': 1 },
+            { 'items': ['gem_dodge', 'gem_magic_armor'], 'quantity': 1 },
             { 'items': ['totem_lego'], 'quantity': 1 },
+        ],
+    },
+    {
+        'name': 'Api',
+        'glory': 67555,
+        'demands': [
+            { 'items': ['gem_dodge'], 'quantity': 1 },
+            { 'items': ['badge'], 'quantity': 1 },
+            { 'items': ['dia_100', 'dia_50'], 'quantity': 1 },
+            { 'items': ['spirit_lego', 'spirit_epic'], 'quantity': 1 },
+            { 'items': ['ticket', 'badge', 'ether', 'shard_3_epic'], 'quantity': 5 }, # extra
         ],
     },
     {
@@ -102,7 +114,7 @@ clan_mates = [
             { 'items': ['clan_coin'], 'quantity': 5 },
             { 'items': ['elixir_health', 'elixir_pierce', 'elixir_accu', 'elixir_forti', 'elixir_armor', 'elixir_dodge', 'elixir_magic_pierce', 'elixir_magic_armor', 'elixir_magic_dmg'], 'quantity': 1 },
             { 'items': ['dia_100', 'dia_50'], 'quantity': 5 },
-            { 'items': ['ticket', 'badge', 'ether'], 'quantity': 5 }, # extra
+            { 'items': ['ticket', 'badge', 'ether', 'shard_3_epic'], 'quantity': 5 }, # extra
         ],
     },
     {
@@ -115,7 +127,7 @@ clan_mates = [
             { 'items': ['badge'], 'quantity': 1 },
             { 'items': ['ticket'], 'quantity': 1 },
             { 'items': ['shard_3_epic', 'shard_1_epic'], 'quantity': 1 },
-            { 'items': ['ticket', 'badge', 'ether'], 'quantity': 5 }, # extra
+            { 'items': ['ticket', 'badge', 'ether', 'shard_3_epic'], 'quantity': 5 }, # extra
         ],
     },
 ]
