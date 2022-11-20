@@ -81,14 +81,13 @@ Jutalom: spirit_lego (6/6); spirit_epic (2/6); elixir_accu (1/2); elixir_accu (2
 38. book_2_lego (1/2) kiosztva Ayrisz klántagnak 289240 glorynál.
 39. book_2_lego (2/2) kiosztva Nomis Leinad klántagnak 184661 glorynál.
 40. book_1_lego (1/1) kiosztva KisCsako88 klántagnak 101091 glorynál.
-41. spirit_lego (1/6) kiosztva Nomis Leinad klántagnak 234661 glorynál.
-42. spirit_lego (2/6) kiosztva KisCsako88 klántagnak 201091 glorynál.
-43. spirit_lego (3/6) kiosztva Chee klántagnak 185766 glorynál.
-44. spirit_lego (4/6) kiosztva KisCsako88 klántagnak 151091 glorynál.
-45. spirit_lego (5/6) kiosztva Chee klántagnak 135766 glorynál.
-46. spirit_lego (6/6) kiosztva Chee the 3rd klántagnak 52602 glorynál.
-47. spirit_epic (1/6) kiosztva Nomis Leinad klántagnak 84661 glorynál.
-48. spirit_epic (2/6) kiosztva Chee the 3rd klántagnak 2602 glorynál.
-49. spirit_epic (3/6) kiosztva Api klántagnak -78717 glorynál.
-50. spirit_epic (4/6) kiosztva Api klántagnak -128717 glorynál.
-
+41. spirit_183_lego (1/6) kiosztva Nomis Leinad klántagnak 234661 glorynál.
+42. spirit_171_lego (2/6) kiosztva KisCsako88 klántagnak 201091 glorynál.
+43. spirit_146_lego (3/6) kiosztva Chee klántagnak 185766 glorynál.
+44. spirit_131_lego (4/6) kiosztva KisCsako88 klántagnak 151091 glorynál.
+45. spirit_127_lego (5/6) kiosztva Chee klántagnak 135766 glorynál.
+46. spirit_100_lego (6/6) kiosztva Chee the 3rd klántagnak 52602 glorynál.
+47. spirit_278_epic (1/6) kiosztva Nomis Leinad klántagnak 84661 glorynál.
+48. spirit_257_epic (2/6) kiosztva Chee the 3rd klántagnak 2602 glorynál.
+49. spirit_240_epic (3/6) kiosztva Api klántagnak -78717 glorynál.
+50. spirit_208_epic (4/6) kiosztva Api klántagnak -128717 glorynál.
