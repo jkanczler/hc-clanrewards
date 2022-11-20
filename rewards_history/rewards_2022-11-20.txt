@@ -1,0 +1,94 @@
+--- Jutalmak Ember Szerint ---
+Amare kérése és jutalma:
+Kérés: 1db essence_reaver;  1db fortified_plate;  1db eternal_flame;  1db eternal_flame;  2db elixir_health és/vagy elixir_dmg;  1db spirit_lego és/vagy spirit_epic;  1db dia_100;  
+Jutalom: essence_reaver (1/1); fortified_plate (1/1); eternal_flame (1/1); elixir_health (1/2); elixir_health (2/2); 
+
+Ayrisz kérése és jutalma:
+Kérés: 1db writings;  1db book_2_lego;  2db clan_coin;  1db dia_100;  
+Jutalom: writings (1/1); book_2_lego (1/2); clan_coin (1/7); clan_coin (2/7); dia_100 (1/5); 
+
+Nomis Leinad kérése és jutalma:
+Kérés: 2db essence_reaver;  1db essence_illu;  1db spirit_lego;  1db book_2_lego;  1db elixir_dmg;  1db spirit_epic;  
+Jutalom: essence_illu (1/1); spirit_lego (1/6); book_2_lego (2/2); elixir_dmg (1/1); spirit_epic (1/6); 
+
+KisCsako88 kérése és jutalma:
+Kérés: 2db spirit_lego;  2db book_2_lego és/vagy book_1_lego;  1db essence_illu;  1db fury_of_the_stars;  2db dia_100;  1db spirit_epic;  
+Jutalom: spirit_lego (2/6); spirit_lego (4/6); book_1_lego (1/1); fury_of_the_stars (1/1); dia_100 (3/5); 
+
+Chee kérése és jutalma:
+Kérés: 2db spirit_lego és/vagy spirit_epic;  5db elixir_health és/vagy elixir_dmg és/vagy elixir_magic_armor és/vagy elixir_crit és/vagy elixir_accu és/vagy elixir_magic_pierce;  1db dia_100;  1db badge;  
+Jutalom: spirit_lego (3/6); spirit_lego (5/6); elixir_magic_armor (1/2); elixir_magic_armor (2/2); elixir_crit (1/1); 
+
+emmi90 kérése és jutalma:
+Kérés: 5db premium;  5db goblin;  
+Jutalom: premium (1/6); premium (2/6); premium (4/6); premium (6/6); goblin (2/7); 
+
+Gizi kérése és jutalma:
+Kérés: 1db totem_lego_reflect;  2db premium;  2db gem_health és/vagy gem_dodge;  1db goblin;  
+Jutalom: totem_lego_reflect (1/1); premium (3/6); premium (5/6); gem_health (1/2); gem_health (2/2); 
+
+robert kérése és jutalma:
+Kérés: 1db essence_illu és/vagy essence_oracle és/vagy essence_annihilator;  1db fetters_of_war;  1db badge;  1db dia_100;  1db clan_coin;  1db spirit_epic;  
+Jutalom: essence_oracle (1/1); fetters_of_war (1/1); badge (1/7); dia_100 (4/5); clan_coin (3/7); 
+
+Api kérése és jutalma:
+Kérés: 1db gem_dodge;  1db dia_100;  1db goblin;  1db spirit_lego és/vagy spirit_epic;  2db spirit_epic;  
+Jutalom: gem_dodge (1/1); dia_100 (2/5); goblin (1/7); spirit_epic (3/6); spirit_epic (4/6); 
+
+Chee the 3rd kérése és jutalma:
+Kérés: 2db spirit_lego és/vagy spirit_epic;  5db elixir_health és/vagy elixir_dmg és/vagy elixir_magic_armor és/vagy elixir_crit és/vagy elixir_accu és/vagy elixir_magic_pierce;  1db book_2_lego és/vagy book_1_lego;  1db dangerous_brooch;  1db dia_100;  1db premium;  1db goblin;  1db badge;  1db shard_5_epic;  
+Jutalom: spirit_lego (6/6); spirit_epic (2/6); elixir_accu (1/2); elixir_accu (2/2); elixir_magic_pierce (1/2); 
+
+
+--- Jutalmak Tárgy Szerint ---
+1. totem_lego_reflect (1/1) kiosztva Gizi klántagnak 117011 glorynál.
+2. gem_health (1/2) kiosztva Gizi klántagnak -32989 glorynál.
+3. gem_health (2/2) kiosztva Gizi klántagnak -82989 glorynál.
+4. gem_dodge (1/1) kiosztva Api klántagnak 71283 glorynál.
+5. essence_reaver (1/1) kiosztva Amare klántagnak 421534 glorynál.
+6. essence_illu (1/1) kiosztva Nomis Leinad klántagnak 284661 glorynál.
+7. essence_oracle (1/1) kiosztva robert klántagnak 112727 glorynál.
+8. fortified_plate (1/1) kiosztva Amare klántagnak 371534 glorynál.
+9. writings (1/1) kiosztva Ayrisz klántagnak 339240 glorynál.
+10. fetters_of_war (1/1) kiosztva robert klántagnak 62727 glorynál.
+11. fury_of_the_stars (1/1) kiosztva KisCsako88 klántagnak 51091 glorynál.
+12. eternal_flame (1/1) kiosztva Amare klántagnak 321534 glorynál.
+13. elixir_health (1/2) kiosztva Amare klántagnak 271534 glorynál.
+14. elixir_health (2/2) kiosztva Amare klántagnak 221534 glorynál.
+15. elixir_dmg (1/1) kiosztva Nomis Leinad klántagnak 134661 glorynál.
+16. elixir_magic_pierce (1/2) kiosztva Chee the 3rd klántagnak -147398 glorynál.
+17. elixir_crit (1/1) kiosztva Chee klántagnak -14234 glorynál.
+18. elixir_magic_armor (1/2) kiosztva Chee klántagnak 85766 glorynál.
+19. elixir_magic_armor (2/2) kiosztva Chee klántagnak 35766 glorynál.
+20. elixir_accu (1/2) kiosztva Chee the 3rd klántagnak -47398 glorynál.
+21. elixir_accu (2/2) kiosztva Chee the 3rd klántagnak -97398 glorynál.
+22. clan_coin (1/7) kiosztva Ayrisz klántagnak 239240 glorynál.
+23. clan_coin (2/7) kiosztva Ayrisz klántagnak 189240 glorynál.
+24. clan_coin (3/7) kiosztva robert klántagnak -87273 glorynál.
+25. dia_100 (1/5) kiosztva Ayrisz klántagnak 139240 glorynál.
+26. dia_100 (2/5) kiosztva Api klántagnak 21283 glorynál.
+27. dia_100 (3/5) kiosztva KisCsako88 klántagnak 1091 glorynál.
+28. dia_100 (4/5) kiosztva robert klántagnak -37273 glorynál.
+29. premium (1/6) kiosztva emmi90 klántagnak 131078 glorynál.
+30. premium (2/6) kiosztva emmi90 klántagnak 81078 glorynál.
+31. premium (3/6) kiosztva Gizi klántagnak 67011 glorynál.
+32. premium (4/6) kiosztva emmi90 klántagnak 31078 glorynál.
+33. premium (5/6) kiosztva Gizi klántagnak 17011 glorynál.
+34. premium (6/6) kiosztva emmi90 klántagnak -18922 glorynál.
+35. goblin (1/7) kiosztva Api klántagnak -28717 glorynál.
+36. goblin (2/7) kiosztva emmi90 klántagnak -68922 glorynál.
+37. badge (1/7) kiosztva robert klántagnak 12727 glorynál.
+38. book_2_lego (1/2) kiosztva Ayrisz klántagnak 289240 glorynál.
+39. book_2_lego (2/2) kiosztva Nomis Leinad klántagnak 184661 glorynál.
+40. book_1_lego (1/1) kiosztva KisCsako88 klántagnak 101091 glorynál.
+41. spirit_lego (1/6) kiosztva Nomis Leinad klántagnak 234661 glorynál.
+42. spirit_lego (2/6) kiosztva KisCsako88 klántagnak 201091 glorynál.
+43. spirit_lego (3/6) kiosztva Chee klántagnak 185766 glorynál.
+44. spirit_lego (4/6) kiosztva KisCsako88 klántagnak 151091 glorynál.
+45. spirit_lego (5/6) kiosztva Chee klántagnak 135766 glorynál.
+46. spirit_lego (6/6) kiosztva Chee the 3rd klántagnak 52602 glorynál.
+47. spirit_epic (1/6) kiosztva Nomis Leinad klántagnak 84661 glorynál.
+48. spirit_epic (2/6) kiosztva Chee the 3rd klántagnak 2602 glorynál.
+49. spirit_epic (3/6) kiosztva Api klántagnak -78717 glorynál.
+50. spirit_epic (4/6) kiosztva Api klántagnak -128717 glorynál.
+
