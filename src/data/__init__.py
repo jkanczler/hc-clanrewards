@@ -1,5 +1,5 @@
-from data.items_11_20_2022 import items
-from data.clan_mates_11_20_2022 import clan_mates
+from data.items_12_05_2022 import items
+from data.clan_mates_12_05_2022 import clan_mates
 
 
 def get_clan_mates():
