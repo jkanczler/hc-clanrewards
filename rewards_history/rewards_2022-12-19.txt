@@ -1,31 +1,31 @@
 --- Jutalmak Ember Szerint ---
 Amare kérése és jutalma:
 Kérés: 1db elixir_health;  1db elixir_sp;  2db spirit_lego és/vagy spirit_epic;  1db book_2_lego és/vagy book_1_lego és/vagy dia_100;  
-Jutalom: elixir_health (1/1); elixir_sp (1/1); spirit_lego (1/6); spirit_lego (4/6); book_2_lego (2/2); 
+Jutalom: elixir_health (1/1); elixir_sp (1/1); spirit_189_lego (1/6); spirit_132_lego (4/6); book_2_lego (2/2); 
 
 Ayrisz kérése és jutalma:
 Kérés: 1db essence_octohand;  1db book_2_lego és/vagy book_1_lego;  2db dia_100;  1db spirit_lego és/vagy spirit_epic;  
-Jutalom: essence_octohand (1/1); book_2_lego (1/2); dia_100 (1/6); dia_100 (2/6); spirit_epic (5/6); 
+Jutalom: essence_octohand (1/1); book_2_lego (1/2); dia_100 (1/6); dia_100 (2/6); spirit_177_epic (5/6); 
 
 KisCsako88 kérése és jutalma:
 Kérés: 1db essence_cultist;  2db spirit_lego;  1db book_2_lego és/vagy book_1_lego;  1db essence_inci;  2db dia_100;  1db elixir_dmg;  1db eternal_flame;  
-Jutalom: essence_cultist (1/1); spirit_lego (5/6); book_1_lego (1/1); essence_inci (1/1); dia_100 (4/6); 
+Jutalom: essence_cultist (1/1); spirit_131_lego (5/6); book_1_lego (1/1); essence_inci (1/1); dia_100 (4/6); 
 
 Juckos kérése és jutalma:
 Kérés: 2db spirit_lego és/vagy spirit_epic;  2db clan_coin;  2db dia_100;  2db book_2_lego és/vagy book_1_lego;  
-Jutalom: spirit_lego (2/6); spirit_lego (6/6); clan_coin (1/6); clan_coin (2/6); dia_100 (5/6); 
+Jutalom: spirit_145_lego (2/6); spirit_126_lego (6/6); clan_coin (1/6); clan_coin (2/6); dia_100 (5/6); 
 
 Chee kérése és jutalma:
 Kérés: 2db spirit_lego és/vagy spirit_epic;  1db elixir_dmg;  2db elixir_accu;  2db elixir_pierce;  2db elixir_dodge;  1db elixir_pierce és/vagy elixir_sp és/vagy elixir_magic_armor és/vagy ticket és/vagy badge és/vagy elixir_magic_pierce és/vagy elixir_magic_dmg;  1db dia_100;  1db badge;  1db ticket;  
-Jutalom: spirit_lego (3/6); spirit_epic (1/6); elixir_dmg (1/1); elixir_accu (1/2); elixir_accu (2/2); 
+Jutalom: spirit_133_lego (3/6); spirit_262_epic (1/6); elixir_dmg (1/1); elixir_accu (1/2); elixir_accu (2/2); 
 
 Chee the 3rd kérése és jutalma:
 Kérés: 2db spirit_epic;  1db cults_hood;  1db bookmarks;  3db dia_100;  3db premium;  3db clan_coin;  3db goblin;  1db ticket;  
-Jutalom: spirit_epic (2/6); spirit_epic (4/6); bookmarks (1/1); premium (4/6); premium (6/6); 
+Jutalom: spirit_258_epic (2/6); spirit_252_epic (4/6); bookmarks (1/1); premium (4/6); premium (6/6); 
 
 Chemotox kérése és jutalma:
 Kérés: 2db spirit_lego és/vagy spirit_epic;  1db essence_cardshaper;  5db clan_coin;  
-Jutalom: spirit_epic (3/6); spirit_epic (6/6); essence_cardshaper (1/1); clan_coin (5/6); clan_coin (6/6); 
+Jutalom: spirit_252_epic (3/6); spirit_169_epic (6/6); essence_cardshaper (1/1); clan_coin (5/6); clan_coin (6/6); 
 
 emmi90 kérése és jutalma:
 Kérés: 5db premium;  5db goblin;  
@@ -79,16 +79,16 @@ Jutalom: dia_100 (3/6); dia_100 (6/6); clan_coin (4/6); badge (2/6); badge (3/6)
 36. book_2_lego (1/2) kiosztva Ayrisz klántagnak 218137 glorynál.
 37. book_2_lego (2/2) kiosztva Amare klántagnak 155219 glorynál.
 38. book_1_lego (1/1) kiosztva KisCsako88 klántagnak 129155 glorynál.
-39. spirit_lego (1/6) kiosztva Amare klántagnak 255219 glorynál.
-40. spirit_lego (2/6) kiosztva Juckos klántagnak 227553 glorynál.
-41. spirit_lego (3/6) kiosztva Chee klántagnak 222337 glorynál.
-42. spirit_lego (4/6) kiosztva Amare klántagnak 205219 glorynál.
-43. spirit_lego (5/6) kiosztva KisCsako88 klántagnak 179155 glorynál.
-44. spirit_lego (6/6) kiosztva Juckos klántagnak 177553 glorynál.
-45. spirit_epic (1/6) kiosztva Chee klántagnak 172337 glorynál.
-46. spirit_epic (2/6) kiosztva Chee the 3rd klántagnak 134255 glorynál.
-47. spirit_epic (3/6) kiosztva Chemotox klántagnak 110120 glorynál.
-48. spirit_epic (4/6) kiosztva Chee the 3rd klántagnak 84255 glorynál.
-49. spirit_epic (5/6) kiosztva Ayrisz klántagnak 68137 glorynál.
-50. spirit_epic (6/6) kiosztva Chemotox klántagnak 60120 glorynál.
+39. spirit_189_lego (1/6) kiosztva Amare klántagnak 255219 glorynál.
+40. spirit_145_lego (2/6) kiosztva Juckos klántagnak 227553 glorynál.
+41. spirit_133_lego (3/6) kiosztva Chee klántagnak 222337 glorynál.
+42. spirit_132_lego (4/6) kiosztva Amare klántagnak 205219 glorynál.
+43. spirit_131_lego (5/6) kiosztva KisCsako88 klántagnak 179155 glorynál.
+44. spirit_126_lego (6/6) kiosztva Juckos klántagnak 177553 glorynál.
+45. spirit_262_epic (1/6) kiosztva Chee klántagnak 172337 glorynál.
+46. spirit_258_epic (2/6) kiosztva Chee the 3rd klántagnak 134255 glorynál.
+47. spirit_252_epic (3/6) kiosztva Chemotox klántagnak 110120 glorynál.
+48. spirit_252_epic (4/6) kiosztva Chee the 3rd klántagnak 84255 glorynál.
+49. spirit_177_epic (5/6) kiosztva Ayrisz klántagnak 68137 glorynál.
+50. spirit_169_epic (6/6) kiosztva Chemotox klántagnak 60120 glorynál.
 
