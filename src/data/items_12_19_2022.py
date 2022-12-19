@@ -4,6 +4,7 @@ items = {
     'essence_oracle': 1,
     'essence_octohand': 1,
     'essence_cultist': 1,
+    'essence_cardshaper': 1,
     'eternal_flame': 1,
     'protective_barrier': 1,
     'bookmarks': 1,

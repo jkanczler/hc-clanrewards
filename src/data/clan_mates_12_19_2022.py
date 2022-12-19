@@ -72,6 +72,15 @@ clan_mates = [
         ],
     },
     {
+        'name': 'Chemotox',
+        'glory': 110120,
+        'demands': [
+            { 'items': ['spirit_lego', 'spirit_epic'], 'quantity': 2 },
+            { 'items': ['essence_cardshaper'], 'quantity': 1 },
+            { 'items': ['clan_coin'], 'quantity': 5 }, #extra
+        ],
+    },
+    {
         'name': 'emmi90',
         'glory': 106689,
         'demands': [
