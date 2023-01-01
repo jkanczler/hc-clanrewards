@@ -1,0 +1,76 @@
+--- Jutalmak Ember Szerint ---
+Ayrisz kérése és jutalma:
+Kérés: 1db dia_100;  1db dia_50;  1db spirit_lego és/vagy spirit_epic;  1db clan_coin;  1db badge;  
+Jutalom: dia_100 (1/4); dia_50 (1/3); spirit_epic (1/4); clan_coin (1/6); badge (1/9); 
+
+Chee kérése és jutalma:
+Kérés: 2db spirit_lego és/vagy spirit_epic;  3db elixir_dmg és/vagy elixir_dodge és/vagy elixir_armor;  
+Jutalom: spirit_lego (1/4); spirit_lego (3/4); elixir_dmg (1/3); elixir_dmg (2/3); elixir_dodge (1/1); 
+
+Amare kérése és jutalma:
+Kérés: 2db spirit_lego és/vagy spirit_epic;  1db dia_100 és/vagy dia_50;  1db elixir_dmg;  1db elixir_sp;  
+Jutalom: spirit_lego (2/4); spirit_lego (4/4); dia_100 (2/4); elixir_dmg (3/3); elixir_sp (1/1); 
+
+Nomis Leinád kérése és jutalma:
+Kérés: 1db essence_reaver;  2db spirit_lego és/vagy spirit_epic;  5db dia_100 és/vagy dia_50;  
+Jutalom: essence_reaver (1/1); spirit_epic (2/4); spirit_epic (3/4); dia_50 (2/3); dia_50 (3/3); 
+
+KisCsako88 kérése és jutalma:
+Kérés: 2db spirit_lego;  1db bundle_of_kindling;  1db essence_reaver;  2db dia_100 és/vagy dia_50;  1db spirit_epic;  1db elixir_dmg;  5db badge;  
+Jutalom: bundle_of_kindling (1/1); dia_100 (3/4); dia_100 (4/4); badge (2/9); badge (4/9); 
+
+Chee the 3rd kérése és jutalma:
+Kérés: 2db spirit_lego és/vagy spirit_epic;  2db clan_coin;  1db premium;  1db dia_100 és/vagy dia_50;  5db badge;  
+Jutalom: spirit_epic (4/4); clan_coin (2/6); clan_coin (3/6); premium (4/5); badge (5/9); 
+
+emmi90 kérése és jutalma:
+Kérés: 4db premium;  1db bundle_of_kindling;  5db badge;  
+Jutalom: premium (1/5); premium (2/5); premium (3/5); premium (5/5); badge (6/9); 
+
+Api kérése és jutalma:
+Kérés: 5db dia_100 és/vagy dia_50;  1db spirit_lego és/vagy spirit_epic;  1db badge;  1db goblin;  1db elixir_dmg és/vagy elixir_dodge és/vagy elixir_armor;  1db clan_coin;  5db badge;  
+Jutalom: badge (3/9); goblin (1/3); elixir_armor (1/1); clan_coin (4/6); badge (7/9); 
+
+
+--- Jutalmak Tárgy Szerint ---
+1. essence_reaver (1/1) kiosztva Nomis Leinád klántagnak 257019 glorynál.
+2. bundle_of_kindling (1/1) kiosztva KisCsako88 klántagnak 252314 glorynál.
+3. elixir_dmg (1/3) kiosztva Chee klántagnak 223931 glorynál.
+4. elixir_dmg (2/3) kiosztva Chee klántagnak 173931 glorynál.
+5. elixir_dmg (3/3) kiosztva Amare klántagnak 165128 glorynál.
+6. elixir_sp (1/1) kiosztva Amare klántagnak 115128 glorynál.
+7. elixir_dodge (1/1) kiosztva Chee klántagnak 123931 glorynál.
+8. elixir_armor (1/1) kiosztva Api klántagnak -43671 glorynál.
+9. clan_coin (1/6) kiosztva Ayrisz klántagnak 194606 glorynál.
+10. clan_coin (2/6) kiosztva Chee the 3rd klántagnak 64247 glorynál.
+11. clan_coin (3/6) kiosztva Chee the 3rd klántagnak 14247 glorynál.
+12. clan_coin (4/6) kiosztva Api klántagnak -93671 glorynál.
+13. dia_100 (1/4) kiosztva Ayrisz klántagnak 344606 glorynál.
+14. dia_100 (2/4) kiosztva Amare klántagnak 215128 glorynál.
+15. dia_100 (3/4) kiosztva KisCsako88 klántagnak 202314 glorynál.
+16. dia_100 (4/4) kiosztva KisCsako88 klántagnak 152314 glorynál.
+17. dia_50 (1/3) kiosztva Ayrisz klántagnak 294606 glorynál.
+18. dia_50 (2/3) kiosztva Nomis Leinád klántagnak 107019 glorynál.
+19. dia_50 (3/3) kiosztva Nomis Leinád klántagnak 57019 glorynál.
+20. premium (1/5) kiosztva emmi90 klántagnak 91242 glorynál.
+21. premium (2/5) kiosztva emmi90 klántagnak 41242 glorynál.
+22. premium (3/5) kiosztva emmi90 klántagnak -8758 glorynál.
+23. premium (4/5) kiosztva Chee the 3rd klántagnak -35753 glorynál.
+24. premium (5/5) kiosztva emmi90 klántagnak -58758 glorynál.
+25. goblin (1/3) kiosztva Api klántagnak 6329 glorynál.
+26. badge (1/9) kiosztva Ayrisz klántagnak 144606 glorynál.
+27. badge (2/9) kiosztva KisCsako88 klántagnak 102314 glorynál.
+28. badge (3/9) kiosztva Api klántagnak 56329 glorynál.
+29. badge (4/9) kiosztva KisCsako88 klántagnak 52314 glorynál.
+30. badge (5/9) kiosztva Chee the 3rd klántagnak -85753 glorynál.
+31. badge (6/9) kiosztva emmi90 klántagnak -108758 glorynál.
+32. badge (7/9) kiosztva Api klántagnak -143671 glorynál.
+33. spirit_lego (1/4) kiosztva Chee klántagnak 323931 glorynál.
+34. spirit_lego (2/4) kiosztva Amare klántagnak 315128 glorynál.
+35. spirit_lego (3/4) kiosztva Chee klántagnak 273931 glorynál.
+36. spirit_lego (4/4) kiosztva Amare klántagnak 265128 glorynál.
+37. spirit_epic (1/4) kiosztva Ayrisz klántagnak 244606 glorynál.
+38. spirit_epic (2/4) kiosztva Nomis Leinád klántagnak 207019 glorynál.
+39. spirit_epic (3/4) kiosztva Nomis Leinád klántagnak 157019 glorynál.
+40. spirit_epic (4/4) kiosztva Chee the 3rd klántagnak 114247 glorynál.
+
