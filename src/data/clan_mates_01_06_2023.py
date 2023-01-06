@@ -73,4 +73,16 @@ clan_mates = [
             { 'items': ['ticket'], 'quantity': 5 }, #extra
         ],
     },
+    {
+        'name': 'Api',
+        'glory': 65554,
+        'demands': [
+            { 'items': ['dia_100', 'dia_50'], 'quantity': 1 },
+            { 'items': ['essence_eclipse'], 'quantity': 1 },
+            { 'items': ['spirit_lego', 'spirit_epic', 'totem_lego'], 'quantity': 2 },
+            { 'items': ['clan_coin', 'dia_50'], 'quantity': 1 },
+            { 'items': ['goblin'], 'quantity': 1 },
+            { 'items': ['gem_dodge'], 'quantity': 1 },
+        ],
+    },
 ]

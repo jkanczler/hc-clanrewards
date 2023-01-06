@@ -1,5 +1,6 @@
 items = {
     'totem_lego': 4,
+    'gem_dodge': 1,
     'essence_eclipse': 1,
     'essence_bastion': 1,
     'bundle_of_kindling': 1,
