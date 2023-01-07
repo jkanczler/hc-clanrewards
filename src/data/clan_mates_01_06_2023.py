@@ -74,6 +74,16 @@ clan_mates = [
         ],
     },
     {
+        'name': 'Nomis Leinád',
+        'glory': 111279,
+        'demands': [
+            { 'items': ['clan_coin'], 'quantity': 1 },
+            { 'items': ['totem_lego'], 'quantity': 2 },
+            { 'items': ['essence_bastion'], 'quantity': 1 },
+            { 'items': ['ticket'], 'quantity': 1 },
+        ],
+    },
+    {
         'name': 'Api',
         'glory': 65554,
         'demands': [
