@@ -11,7 +11,9 @@ class ClanRewardsDistributor:
     _number_of_rewards = 5
 
 
-    def __init__(self):
+    def __init__(self, data_path):
+        self._data_path = data_path
+
         self._init_item_price()
         self._init_clan_mates()
         self._init_clan_rewards()
@@ -33,14 +35,15 @@ class ClanRewardsDistributor:
 
     def _init_clan_mates(self):
         self._clan_mates = []
-        clan_mate_data_list = data.get_clan_mates()
+        clan_mate_data_list = data.get_clan_mates(self._data_path)
 
         for clan_mate_data in clan_mate_data_list:
+            print(clan_mate_data)
             self._clan_mates.append(ClanMate(clan_mate_data))
 
 
     def _init_clan_rewards(self):
-        self.clan_rewards = ClanRewards()
+        self.clan_rewards = ClanRewards(self._data_path)
 
 
     def _distribute_clan_rewards(self):

@@ -2,8 +2,8 @@ import data
 
 
 class ClanRewards:
-    def __init__(self):
-        self.available_items = data.get_items()
+    def __init__(self, data_path):
+        self.available_items = data.get_items(data_path)
         self._item_price = data.get_item_price()
         self._init_distributed_items()
 
