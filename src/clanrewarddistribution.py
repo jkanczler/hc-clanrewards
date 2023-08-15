@@ -1,4 +1,5 @@
 from datetime import date
+import os
 import data
 from clanmate import ClanMate
 from clanrewards import ClanRewards
@@ -11,8 +12,9 @@ class ClanRewardsDistributor:
     _number_of_rewards = 5
 
 
-    def __init__(self, data_path):
-        self._data_path = data_path
+    def __init__(self, data_dir, reward_dir):
+        self._data_dir = data_dir
+        self._reward_dir = reward_dir
 
         self._init_item_price()
         self._init_clan_mates()
@@ -35,7 +37,7 @@ class ClanRewardsDistributor:
 
     def _init_clan_mates(self):
         self._clan_mates = []
-        clan_mate_data_list = data.get_clan_mates(self._data_path)
+        clan_mate_data_list = data.get_clan_mates(self._data_dir)
 
         for clan_mate_data in clan_mate_data_list:
             print(clan_mate_data)
@@ -43,7 +45,7 @@ class ClanRewardsDistributor:
 
 
     def _init_clan_rewards(self):
-        self.clan_rewards = ClanRewards(self._data_path)
+        self.clan_rewards = ClanRewards(self._data_dir)
 
 
     def _distribute_clan_rewards(self):
@@ -95,7 +97,10 @@ class ClanRewardsDistributor:
 
 
     def _save_results_to_file(self, result):
-        with open(f'./rewards_history/rewards_{date.today()}.txt', 'w', encoding='utf-8') as output:
+        if not os.path.exists(self._reward_dir):
+            os.makedirs(self._reward_dir)
+
+        with open(f'{self._reward_dir}/rewards_{date.today()}.txt', 'w', encoding='utf-8') as output:
             output.write(result)
 
 

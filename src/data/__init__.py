@@ -1,12 +1,12 @@
 import json
 
 
-def get_clan_mates(data_path):
-    return _open_file(f'{data_path}/clan_mates.json')['clan_mates']
+def get_clan_mates(data_dir):
+    return _open_file(f'{data_dir}/clan_mates.json')['clan_mates']
 
 
-def get_items(data_path):
-    return _open_file(f'{data_path}/items.json')
+def get_items(data_dir):
+    return _open_file(f'{data_dir}/items.json')
 
 
 def get_item_price():
