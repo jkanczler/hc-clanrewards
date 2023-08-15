@@ -1,13 +1,10 @@
-import data
-
-
 class ClanMate:
-    def __init__(self, clan_mate_data):
+    def __init__(self, clan_mate_data, item_price):
         self.name = clan_mate_data['name']
         self.glory = clan_mate_data['glory']
         self.demands = clan_mate_data['demands']
         self.rewards = []
-        self._item_price = data.get_item_price()
+        self._item_price = item_price
 
         for demand in self.demands:
             demand['original'] = demand['quantity']

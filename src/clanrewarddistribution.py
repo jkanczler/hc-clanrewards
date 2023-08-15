@@ -8,15 +8,11 @@ from clanrewards import ClanRewards
 # Only one public method as this is the entry point to the application.
 # pylint: disable=too-few-public-methods
 class ClanRewardsDistributor:
-    # Each clan mate can receive this many rewards
-    _number_of_rewards = 5
-
-
     def __init__(self, data_dir, reward_dir):
         self._data_dir = data_dir
         self._reward_dir = reward_dir
 
-        self._init_item_price()
+        self._init_configuration()
         self._init_clan_mates()
         self._init_clan_rewards()
 
@@ -31,8 +27,10 @@ class ClanRewardsDistributor:
         self._print_results()
 
 
-    def _init_item_price(self):
-        self._item_price = data.get_item_price()
+    def _init_configuration(self):
+        self._configuration = data.get_configuration(self._data_dir)
+        self._item_price = self._configuration['item_price']
+        self._number_of_rewards = self._configuration['number_of_rewards']
 
 
     def _init_clan_mates(self):
@@ -41,11 +39,11 @@ class ClanRewardsDistributor:
 
         for clan_mate_data in clan_mate_data_list:
             print(clan_mate_data)
-            self._clan_mates.append(ClanMate(clan_mate_data))
+            self._clan_mates.append(ClanMate(clan_mate_data, self._item_price))
 
 
     def _init_clan_rewards(self):
-        self.clan_rewards = ClanRewards(self._data_dir)
+        self.clan_rewards = ClanRewards(self._data_dir, self._item_price)
 
 
     def _distribute_clan_rewards(self):

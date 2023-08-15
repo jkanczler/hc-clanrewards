@@ -9,8 +9,8 @@ def get_items(data_dir):
     return _open_file(f'{data_dir}/items.json')
 
 
-def get_item_price():
-    return 50000
+def get_configuration(data_dir):
+    return _open_file(f'{data_dir}/config.json')
 
 
 def _open_file(file_name):

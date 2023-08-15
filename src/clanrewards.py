@@ -2,9 +2,9 @@ import data
 
 
 class ClanRewards:
-    def __init__(self, data_dir):
+    def __init__(self, data_dir, item_price):
         self.available_items = data.get_items(data_dir)
-        self._item_price = data.get_item_price()
+        self._item_price = item_price
         self._init_distributed_items()
 
 
